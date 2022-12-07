@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8379017247a311109a45dac8536d432d" extends="user_activation_request" label="Work Hub User Acti Req 916121" max_length="40" name="x_950986_work_hub_user_acti_req_916121" type="collection"/>
+</database>

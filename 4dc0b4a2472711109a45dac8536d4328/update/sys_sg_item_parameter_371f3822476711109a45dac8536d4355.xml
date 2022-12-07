@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Equipment room</name>
+        <parent>fb1f3822476711109a45dac8536d4352</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:35</sys_created_on>
+        <sys_id>371f3822476711109a45dac8536d4355</sys_id>
+        <sys_name>Equipment room</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_371f3822476711109a45dac8536d4355</sys_update_name>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

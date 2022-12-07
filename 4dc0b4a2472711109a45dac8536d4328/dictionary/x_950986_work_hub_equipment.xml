@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="397eb8ee472711109a45dac8536d437e" label="Equipment" max_length="40" name="x_950986_work_hub_equipment" type="collection">
+        <element attributes="encode_utf8=false" label="CI Description" max_length="32" name="ci_description" reference="cmdb_ci" type="reference"/>
+        <element attributes="encode_utf8=false" label="CI Name" max_length="32" name="ci_name" reference="cmdb_ci" type="reference"/>
+        <element attributes="encode_utf8=false" label="CI Number" max_length="32" name="ci_number" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Room" max_length="32" name="room" reference="x_950986_work_hub_room" type="reference"/>
+        <index name="index">
+            <element name="ci_description"/>
+        </index>
+        <index name="index2">
+            <element name="ci_name"/>
+        </index>
+        <index name="index3">
+            <element name="ci_number"/>
+        </index>
+        <index name="index4">
+            <element name="room"/>
+        </index>
+    </element>
+</database>

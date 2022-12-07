@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c779cd3247a311109a45dac8536d43f8" extends="sys_user_registration_request" label="Work Hub User Reg Req 916121" max_length="40" name="x_950986_work_hub_user_reg_req_916121" type="collection"/>
+</database>

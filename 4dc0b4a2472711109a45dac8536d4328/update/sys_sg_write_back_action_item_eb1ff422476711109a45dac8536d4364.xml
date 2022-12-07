@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (Booking)</name>
+        <parameter_screen/>
+        <query_condition table="x_950986_work_hub_booking">sys_idSTARTSWITH{{Booking sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Booking sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:34</sys_created_on>
+        <sys_id>eb1ff422476711109a45dac8536d4364</sys_id>
+        <sys_name>Edit (Booking)</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_eb1ff422476711109a45dac8536d4364</sys_update_name>
+        <table>x_950986_work_hub_booking</table>
+        <template>booking_number={{Booking booking_number}}^customer_first_name={{Booking customer_first_name}}^customer_last_name={{Booking customer_last_name}}^customer_name={{Booking customer_name}}^customer_number={{Booking customer_number}}^description={{Booking description}}^end_time={{Booking end_time}}^image={{Booking image}}^number={{Booking number}}^number_of_hours_booked={{Booking number_of_hours_booked}}^price_per_hour={{Booking price_per_hour}}^room_equipment={{Booking room_equipment}}^room_name={{Booking room_name}}^room_number={{Booking room_number}}^start_time={{Booking start_time}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb1ff422476711109a45dac8536d4364"/>
+</record_update>

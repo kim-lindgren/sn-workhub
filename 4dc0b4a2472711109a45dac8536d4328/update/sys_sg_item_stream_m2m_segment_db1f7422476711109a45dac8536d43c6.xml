@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Room Item Stream">1b1f7422476711109a45dac8536d43ac</item_stream>
+        <segment display_value="Room Item Stream Segment">1b1f7422476711109a45dac8536d43ab</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:32</sys_created_on>
+        <sys_id>db1f7422476711109a45dac8536d43c6</sys_id>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_db1f7422476711109a45dac8536d43c6</sys_update_name>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

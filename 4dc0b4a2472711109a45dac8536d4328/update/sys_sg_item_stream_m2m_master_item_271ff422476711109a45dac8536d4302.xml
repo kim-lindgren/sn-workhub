@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Booking Item Stream">ab1ff422476711109a45dac8536d4300</item_stream>
+        <master_item display_value="Booking master_item">eb1ff422476711109a45dac8536d4301</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:33</sys_created_on>
+        <sys_id>271ff422476711109a45dac8536d4302</sys_id>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_271ff422476711109a45dac8536d4302</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

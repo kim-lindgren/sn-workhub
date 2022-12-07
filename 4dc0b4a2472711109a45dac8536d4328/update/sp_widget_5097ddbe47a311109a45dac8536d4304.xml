@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&amp;display=swap');&#13;
+* {&#13;
+  box-sizing: border-box;&#13;
+  font-family: 'Montserrat', sans-serif;&#13;
+}&#13;
+&#13;
+&#13;
+.grid {&#13;
+  display: grid;&#13;
+  margin-top: 2rem;&#13;
+  gap: 2rem;&#13;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));&#13;
+}&#13;
+.grid-item {&#13;
+  background-color: #fff;&#13;
+  cursor: pointer;&#13;
+  transition: 0.2s;&#13;
+  margin-bottom: 1.5rem;&#13;
+}&#13;
+&#13;
+.room {&#13;
+  float: left;&#13;
+  padding: 0;&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+.room .wrapper {&#13;
+  background-color: #fff;&#13;
+  min-height: 380px;&#13;
+  position: relative;&#13;
+  overflow: hidden;&#13;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.1), 0 3px 4px rgba(0, 0, 0, 0.2);&#13;
+}&#13;
+.room .wrapper:hover .data {&#13;
+  transform: translateY(0);&#13;
+}&#13;
+.room .data {&#13;
+  position: absolute;&#13;
+  bottom: 0;&#13;
+  width: 100%;&#13;
+  transform: translateY(calc(70px + 1em));&#13;
+  transition: transform 0.3s;&#13;
+}&#13;
+.room .data .content {&#13;
+  padding: 1em;&#13;
+  margin-right: 3rem;&#13;
+  position: relative;&#13;
+  z-index: 1;&#13;
+}&#13;
+.room .book {&#13;
+  font-size: 12px;&#13;
+}&#13;
+.room .title {&#13;
+  margin-top: 10px;&#13;
+  font-size: 20px;&#13;
+  font-weight: 400;&#13;
+  margin-bottom: 24px;&#13;
+  font-family: 'Montserrat', sans-serif;&#13;
+}&#13;
+.room .booking {&#13;
+ background:#0177BF;&#13;
+  padding: .5rem 1.3rem;&#13;
+  font-size: 10px;&#13;
+  color: white;&#13;
+  border: 1px solid #ffffff;&#13;
+  border-radius: 40px;&#13;
+  margin-top: .2rem;&#13;
+  &#13;
+}&#13;
+&#13;
+.image-1 .wrapper {&#13;
+  background: url(https://dev138291.service-now.com/x_950986_work_hub.smallRoom.jpg)&#13;
+    20% 1% / cover no-repeat;&#13;
+}&#13;
+&#13;
+.image-1 .content {&#13;
+  background-color: rgba(50, 219, 190, 0.9);&#13;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);&#13;
+}&#13;
+.image-1 .title a {&#13;
+  color: white;&#13;
+}&#13;
+.image-2 .wrapper {&#13;
+  background: url(https://dev138291.service-now.com/x_950986_work_hub.largeRoom.png)&#13;
+    20% 1% / cover no-repeat;&#13;
+}&#13;
+&#13;
+.image-2 .content {&#13;
+  background-color: rgba(50, 219, 190, 0.9);&#13;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);&#13;
+}&#13;
+.image-2 .title a {&#13;
+  color: white;&#13;
+}&#13;
+.image-3 .wrapper {&#13;
+  background: url(https://dev138291.service-now.com/x_950986_work_hub.conferenceRoom1.png)&#13;
+    20% 1% / cover no-repeat;&#13;
+}&#13;
+&#13;
+.image-3 .content {&#13;
+  background-color: rgba(50, 219, 190, 0.9);&#13;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);&#13;
+}&#13;
+.image-3 .title a {&#13;
+  color: white;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>rooms</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>rooms</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>x_950986_work_hub.customer,x_950986_work_hub.maintenance</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-07 11:02:33</sys_created_on>
+        <sys_id>5097ddbe47a311109a45dac8536d4304</sys_id>
+        <sys_name>rooms</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_widget_5097ddbe47a311109a45dac8536d4304</sys_update_name>
+        <template><![CDATA[<div class="grid">
+        <div class="grid-item">
+          <div class="image-1 room">
+            <div class="wrapper">
+              <div class="data">
+                <div class="content">
+                  <button class="booking" type="button">RESERVE</button>
+                  <h1 class="title">
+                    <a>Meeting Room (1-2 persons)</a>
+                  </h1>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat, laudantium.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-2 room">
+            <div class="wrapper">
+              <div class="data">
+                <div class="content">
+                  <button class="booking" type="button">RESERVE</button>
+                  <h1 class="title">
+                    <a>Meeting Room (3-4 persons)</a>
+                  </h1>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat, laudantium.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-3 room">
+            <div class="wrapper">
+              <div class="data">
+                <div class="content">
+                  <button class="booking" type="button">RESERVE</button>
+                  <h1 class="title">
+                    <a >Conference Room (12 persons)</a>
+                  </h1>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat, laudantium.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>]]></template>
+    </sp_widget>
+</record_update>

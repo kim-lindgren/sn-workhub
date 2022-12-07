@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="29473c2a472711109a45dac8536d4360" label="Room" max_length="40" name="x_950986_work_hub_room" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="Booking Fee" max_length="20" name="booking_fee" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Image" max_length="65536" name="image" type="html"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of seats" max_length="40" name="number_of_seats" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Price per hour" max_length="20" name="price_per_hour" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Room Equipment" max_length="40" name="room_equipment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Room Name" max_length="40" name="room_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Room Number" max_length="40" name="room_number" type="string"/>
+        <element label="Size" max_length="40" name="size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+    </element>
+</database>

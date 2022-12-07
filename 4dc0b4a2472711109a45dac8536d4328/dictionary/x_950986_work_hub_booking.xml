@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="65dc7c6e472711109a45dac8536d43b7" label="Booking" max_length="40" name="x_950986_work_hub_booking" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Booking Number" mandatory="true" max_length="40" name="booking_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Customer First Name" max_length="32" name="customer_first_name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Customer Last Name" max_length="32" name="customer_last_name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Customer Number" max_length="32" name="customer_number" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Description" max_length="32" name="description" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Image" max_length="32" name="image" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of hours booked" max_length="40" name="number_of_hours_booked" type="integer"/>
+        <element label="Price per hour" max_length="40" name="price_per_hour" type="integer"/>
+        <element attributes="encode_utf8=false" label="Room Equipment" max_length="32" name="room_equipment" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="encode_utf8=false" label="Room Name" max_length="32" name="room_name" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="encode_utf8=false" label="Room Number" max_length="32" name="room_number" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Total Price" max_length="40" name="total_price" type="integer"/>
+        <index name="index">
+            <element name="customer_first_name"/>
+        </index>
+        <index name="index2">
+            <element name="customer_last_name"/>
+        </index>
+        <index name="index3">
+            <element name="customer_name"/>
+        </index>
+        <index name="index4">
+            <element name="customer_number"/>
+        </index>
+        <index name="index5">
+            <element name="description"/>
+        </index>
+        <index name="index6">
+            <element name="image"/>
+        </index>
+        <index name="index7">
+            <element name="room_equipment"/>
+        </index>
+        <index name="index8">
+            <element name="room_name"/>
+        </index>
+        <index name="index9">
+            <element name="room_number"/>
+        </index>
+    </element>
+</database>
