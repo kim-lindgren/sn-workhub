@@ -6,7 +6,7 @@
         <element attributes="encode_utf8=false" label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Customer Number" max_length="32" name="customer_number" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Description" max_length="32" name="description" reference="x_950986_work_hub_room" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" mandatory="true" max_length="40" name="end_time" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Image" max_length="32" name="image" reference="x_950986_work_hub_room" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Number of hours booked" max_length="40" name="number_of_hours_booked" type="integer"/>
@@ -14,8 +14,9 @@
         <element attributes="encode_utf8=false" label="Room Equipment" max_length="32" name="room_equipment" reference="x_950986_work_hub_room" type="reference"/>
         <element attributes="encode_utf8=false" label="Room Name" max_length="32" name="room_name" reference="x_950986_work_hub_room" type="reference"/>
         <element attributes="encode_utf8=false" label="Room Number" max_length="32" name="room_number" reference="x_950986_work_hub_room" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
         <element label="Total Price" max_length="40" name="total_price" type="integer"/>
+        <element label="Duration" max_length="40" name="u_glide_duration" read_only="true" type="glide_duration"/>
         <index name="index">
             <element name="customer_first_name"/>
         </index>
