@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Book a room</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 14:00:57</sys_created_on>
+        <sys_id>7e6a078b472711109a45dac8536d438a</sys_id>
+        <sys_name>Room Booking</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_category_7e6a078b472711109a45dac8536d438a</sys_update_name>
+        <title>Room Booking</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e6a078b472711109a45dac8536d438a"/>
+</record_update>

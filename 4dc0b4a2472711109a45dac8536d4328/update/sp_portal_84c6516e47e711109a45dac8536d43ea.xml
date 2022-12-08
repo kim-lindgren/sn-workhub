@@ -21,7 +21,7 @@ $sp-logo-margin-x:1.5rem;
 $btn-default-bg:#fff;
 $text-muted:#666666;
 </css_variables>
-        <default>false</default>
+        <default>true</default>
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>

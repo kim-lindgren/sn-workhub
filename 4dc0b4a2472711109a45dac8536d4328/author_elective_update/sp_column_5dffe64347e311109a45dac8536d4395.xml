@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">d1ffee0347e311109a45dac8536d4383</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 12:04:31</sys_created_on>
+        <sys_id>5dffe64347e311109a45dac8536d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_column_5dffe64347e311109a45dac8536d4395</sys_update_name>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-08 12:04:31</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_column_5dffe64347e311109a45dac8536d4395</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">d1ffee0347e311109a45dac8536d4383</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>monika.lythell</sys_created_by><sys_created_on>2022-12-08 12:04:31</sys_created_on><sys_id>5dffe64347e311109a45dac8536d4395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sp_column_5dffe64347e311109a45dac8536d4395</sys_update_name><sys_updated_by>monika.lythell</sys_updated_by><sys_updated_on>2022-12-08 12:04:31</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>630098525</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>a85b0fb247ab11109a45dac8536d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 12:04:31</sys_created_on>
+        <sys_id>95ffe64347e311109a45dac8536d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f19f7bd10000001</sys_recorded_at>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-08 12:04:31</sys_updated_on>
+        <type>Column</type>
+        <update_guid>ddffe643d6e3111063a6d23529e31d96</update_guid>
+        <update_guid_history>ddffe643d6e3111063a6d23529e31d96:630098525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">c380328347e311109a45dac8536d4375</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 12:07:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>6e02d38b806244988cf2d4bda7b41a40</sys_id>
+        <sys_metadata>5dffe64347e311109a45dac8536d4395</sys_metadata>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_column_5dffe64347e311109a45dac8536d4395</sys_update_name>
+        <sys_update_version display_value="sp_column_5dffe64347e311109a45dac8536d4395">95ffe64347e311109a45dac8536d4397</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

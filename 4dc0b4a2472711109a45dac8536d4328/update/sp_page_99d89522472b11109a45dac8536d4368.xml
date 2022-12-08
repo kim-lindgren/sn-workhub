@@ -2,16 +2,21 @@
     <sp_page action="INSERT_OR_UPDATE">
         <category>custom</category>
         <css>title {
-  
+ 
   color: red;
-}</css>
+}
+section.page, main.body{
+  padding-top: 0px !important;
+
+}
+</css>
         <draft>false</draft>
         <dynamic_title_structure/>
         <id>workhub_homepage</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>true</public>
-        <roles>x_950986_work_hub.customer,x_950986_work_hub.maintenance</roles>
+        <roles>x_950986_work_hub.customer,x_950986_work_hub.maintenance,admin</roles>
         <seo_script/>
         <short_description>First page in Work Hub application</short_description>
         <sys_class_name>sp_page</sys_class_name>
@@ -23,7 +28,7 @@
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
         <sys_update_name>sp_page_99d89522472b11109a45dac8536d4368</sys_update_name>
-        <title>Homepage</title>
+        <title>Workhub Homepage</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=99d89522472b11109a45dac8536d4368"/>

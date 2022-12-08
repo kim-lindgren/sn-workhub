@@ -4,6 +4,20 @@
         <client_script><![CDATA[api.controller=function() {
   /* widget controller */
   var c = this;
+	
+	
+//	if(g_user.hasRole('x_950986_work_hub.customer')){
+//			showRegBtn =false;
+//	}
+	
+	
+	//if(c.x_950986_work_hub.customer ==""){
+		//	"x_950986_work_hub.customer"
+			showRegBtn =false;
+	//	}
+		//else{
+			//showRegBtn =true;
+	//	}
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>/* &#13;
@@ -69,7 +83,7 @@ header */&#13;
         <name>header section</name>
         <option_schema/>
         <public>true</public>
-        <roles>x_950986_work_hub.customer,x_950986_work_hub.maintenance</roles>
+        <roles>x_950986_work_hub.customer,x_950986_work_hub.maintenance,admin</roles>
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
@@ -92,12 +106,14 @@ header */&#13;
         </div>
         <div layout="column">  
           <a href="https://dev138291.service-now.com/workhub?id=sn_user_registration&sys_id=5b79017247a311109a45dac8536d43a8" target="_blank">
-           <button ng-if="!data.x_950986_work_hub.customer" class="register" type="button">REGISTER</button>
+         
+            <button ng-if="!data.x_950986_work_hub.customer" class="register" type="button">REGISTER</button>
+         
           </a>
            <a href="https://dev138291.service-now.com/sp?id=sn_user_registration&sys_id=5b79017247a311109a45dac8536d43a8&profile=0149813247a311109a45dac8536d4373" target="_blank">
            <button class="register" type="button">BOOK A ROOM</button>
           </a>
-          </a>
+          
            <a href="https://dev138291.service-now.com/sp?id=sn_user_registration&sys_id=5b79017247a311109a45dac8536d43a8&profile=0149813247a311109a45dac8536d4373" target="_blank">
            <button class="register" type="button">REPORT A INCIDENT</button>
           </a>

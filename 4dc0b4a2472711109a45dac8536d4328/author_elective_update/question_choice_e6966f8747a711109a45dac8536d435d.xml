@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Select a room">ea5623c747a711109a45dac8536d43f6</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 16:03:22</sys_created_on>
+        <sys_id>e6966f8747a711109a45dac8536d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Room 2</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>question_choice_e6966f8747a711109a45dac8536d435d</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-08 16:03:22</sys_updated_on>
+        <text>Room 2</text>
+        <value>room_2</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=e6966f8747a711109a45dac8536d435d"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>e6966f8747a711109a45dac8536d435d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 16:03:22</sys_created_on>
+        <sys_id>b3962fc747a711109a45dac8536d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-08 16:03:22</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>e6966f8747a711109a45dac8536d435d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 16:03:22</sys_created_on>
+        <sys_id>3b962fc747a711109a45dac8536d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-08 16:03:22</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>question_choice_e6966f8747a711109a45dac8536d435d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>200</order><published_ref/><question display_value="Select a room">ea5623c747a711109a45dac8536d43f6</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-08 16:03:22</sys_created_on><sys_id>e6966f8747a711109a45dac8536d435d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Room 2</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>question_choice_e6966f8747a711109a45dac8536d435d</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-08 16:03:22</sys_updated_on><text>Room 2</text><value>room_2</value></question_choice><fx_price action="delete_multiple" query="id=e6966f8747a711109a45dac8536d435d"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>e6966f8747a711109a45dac8536d435d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-08 16:03:22</sys_created_on><sys_id>b3962fc747a711109a45dac8536d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-08 16:03:22</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>e6966f8747a711109a45dac8536d435d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-08 16:03:22</sys_created_on><sys_id>3b962fc747a711109a45dac8536d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-08 16:03:22</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>470958071</payload_hash>
+        <record_name>Room 2</record_name>
+        <reverted_from/>
+        <source>722a6ab2472b11109a45dac8536d43a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 16:03:22</sys_created_on>
+        <sys_id>b3962fc747a711109a45dac8536d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f27a27010000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-08 16:03:22</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>fb962fc727a7111078224876e4a273a9</update_guid>
+        <update_guid_history>fb962fc727a7111078224876e4a273a9:470958071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Room 2">0217670b47a711109a45dac8536d4384</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 16:05:26</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>017af2140ecf423493ab24eeeacef390</sys_id>
+        <sys_metadata>e6966f8747a711109a45dac8536d435d</sys_metadata>
+        <sys_name>Room 2</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>question_choice_e6966f8747a711109a45dac8536d435d</sys_update_name>
+        <sys_update_version display_value="question_choice_e6966f8747a711109a45dac8536d435d">b3962fc747a711109a45dac8536d43aa</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

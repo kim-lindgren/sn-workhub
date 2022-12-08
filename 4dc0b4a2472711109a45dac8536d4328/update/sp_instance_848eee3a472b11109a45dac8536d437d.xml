@@ -11,19 +11,19 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">345306e647ab11109a45dac8536d43de</sp_column>
-        <sp_widget display_value="Sample Footer">feb4f763df121200ba13a4836bf26320</sp_widget>
+        <sp_widget display_value="Work Hub Footer">bb0e2a3a472b11109a45dac8536d43a4</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>nelman.ranasinghe</sys_created_by>
-        <sys_created_on>2022-12-06 19:33:20</sys_created_on>
-        <sys_id>d083022a47ab11109a45dac8536d4343</sys_id>
+        <sys_created_on>2022-12-07 17:19:41</sys_created_on>
+        <sys_id>848eee3a472b11109a45dac8536d437d</sys_id>
         <sys_name/>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-        <sys_update_name>sp_instance_d083022a47ab11109a45dac8536d4343</sys_update_name>
+        <sys_update_name>sp_instance_848eee3a472b11109a45dac8536d437d</sys_update_name>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=d083022a47ab11109a45dac8536d4343"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=848eee3a472b11109a45dac8536d437d"/>
 </record_update>
