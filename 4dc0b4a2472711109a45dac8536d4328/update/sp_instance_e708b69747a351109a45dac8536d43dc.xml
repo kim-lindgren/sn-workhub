@@ -6,24 +6,24 @@
         <css/>
         <glyph/>
         <id/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">c16ff28f47e311109a45dac8536d435f</sp_column>
-        <sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget>
+        <sp_column display_value="1">10843a9347a351109a45dac8536d43ec</sp_column>
+        <sp_widget display_value="Bookable Rooms">16b4674747a711109a45dac8536d4335</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>monika.lythell</sys_created_by>
-        <sys_created_on>2022-12-08 14:10:56</sys_created_on>
-        <sys_id>0deccf0f472711109a45dac8536d4344</sys_id>
+        <sys_created_on>2022-12-09 07:18:23</sys_created_on>
+        <sys_id>e708b69747a351109a45dac8536d43dc</sys_id>
         <sys_name/>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-        <sys_update_name>sp_instance_0deccf0f472711109a45dac8536d4344</sys_update_name>
+        <sys_update_name>sp_instance_e708b69747a351109a45dac8536d43dc</sys_update_name>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=0deccf0f472711109a45dac8536d4344"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e708b69747a351109a45dac8536d43dc"/>
 </record_update>

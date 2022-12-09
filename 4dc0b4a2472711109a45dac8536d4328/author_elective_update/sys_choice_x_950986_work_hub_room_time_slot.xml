@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="time_slot" table="x_950986_work_hub_room" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>time_slot</element>
+            <name>x_950986_work_hub_room</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>monika.lythell</sys_created_by>
+            <sys_created_on>2022-12-09 14:23:02</sys_created_on>
+            <sys_name>time_slot</sys_name>
+            <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+            <sys_update_name>sys_choice_x_950986_work_hub_room_time_slot</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8 to 9</label>
+            <language>en</language>
+            <name>x_950986_work_hub_room</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>monika.lythell</sys_created_by>
+            <sys_created_on>2022-12-09 14:23:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>8-9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9 to 10</label>
+            <language>en</language>
+            <name>x_950986_work_hub_room</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>monika.lythell</sys_created_by>
+            <sys_created_on>2022-12-09 14:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>9-10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10 to 11</label>
+            <language>en</language>
+            <name>x_950986_work_hub_room</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>monika.lythell</sys_created_by>
+            <sys_created_on>2022-12-09 15:29:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>10 -11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11 to 12</label>
+            <language>en</language>
+            <name>x_950986_work_hub_room</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>monika.lythell</sys_created_by>
+            <sys_created_on>2022-12-09 15:30:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>11-12</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

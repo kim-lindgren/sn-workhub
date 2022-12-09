@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">c16ff28f47e311109a45dac8536d435f</sp_column>
+        <sp_widget display_value="Related Catalog Item">806f40990fab2300b7b2c8337a767e6f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-09 07:31:05</sys_created_on>
+        <sys_id>99fabe1b47a351109a45dac8536d431a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_99fabe1b47a351109a45dac8536d431a</sys_update_name>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-09 07:31:56</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"source_table": {
+		"value": "sc_2_sc",
+		"displayValue": "sc_2_sc"
+	},
+	"source_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"target_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=99fabe1b47a351109a45dac8536d431a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_instance_99fabe1b47a351109a45dac8536d431a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;c16ff28f47e311109a45dac8536d435f&lt;/sp_column&gt;&lt;sp_widget display_value="Related Catalog Item"&gt;806f40990fab2300b7b2c8337a767e6f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;monika.lythell&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-09 07:31:05&lt;/sys_created_on&gt;&lt;sys_id&gt;99fabe1b47a351109a45dac8536d431a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_99fabe1b47a351109a45dac8536d431a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;monika.lythell&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-09 07:31:56&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"source_table": {
+		"value": "sc_2_sc",
+		"displayValue": "sc_2_sc"
+	},
+	"source_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"target_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=99fabe1b47a351109a45dac8536d431a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1272595815</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>bc7a281347ab11109a45dac8536d435d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-09 07:31:56</sys_created_on>
+        <sys_id>062bf25b47a351109a45dac8536d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f5cc47b70000001</sys_recorded_at>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-09 07:31:56</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>0e2bf25bf7a3511028ec14f23229c726</update_guid>
+        <update_guid_history>0e2bf25bf7a3511028ec14f23229c726:1272595815,bb0b325b9ba3511011615209bb4e60d1:1642946523,69fa365bcca35110b062e4bbaac1a260:1050535210</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ec5b7a5b47a351109a45dac8536d434c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-09 07:32:40</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>64670421c138470283a48310c3b99284</sys_id>
+        <sys_metadata>99fabe1b47a351109a45dac8536d431a</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_instance_99fabe1b47a351109a45dac8536d431a</sys_update_name>
+        <sys_update_version display_value="sp_instance_99fabe1b47a351109a45dac8536d431a">062bf25b47a351109a45dac8536d4327</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

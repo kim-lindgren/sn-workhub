@@ -7,7 +7,7 @@
         <id>workhub_conference</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
-        <public>false</public>
+        <public>true</public>
         <roles>x_950986_work_hub.maintenance</roles>
         <seo_script/>
         <short_description>Calender form conference</short_description>

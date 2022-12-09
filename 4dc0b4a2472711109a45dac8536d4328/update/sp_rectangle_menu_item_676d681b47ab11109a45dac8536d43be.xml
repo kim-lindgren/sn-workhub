@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter table="incident">caller_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="caller_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Create incident</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item display_value="Small Room (1-2 persons)">08ab8bcb472711109a45dac8536d43db</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_rectangle_menu display_value="Work Hub Main Menu">6f6c56f647e711109a45dac8536d439e</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 21:15:16</sys_created_on>
+        <sys_id>676d681b47ab11109a45dac8536d43be</sys_id>
+        <sys_name>Create incident</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_676d681b47ab11109a45dac8536d43be</sys_update_name>
+        <table>incident</table>
+        <type>filtered</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=676d681b47ab11109a45dac8536d43be"/>
+</record_update>
