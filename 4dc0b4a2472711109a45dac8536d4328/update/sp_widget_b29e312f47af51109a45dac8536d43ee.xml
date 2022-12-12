@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>table, td, th {  &#13;
+  border: 1px solid #32DBBE;&#13;
+  text-align: left;&#13;
+}&#13;
+&#13;
+table {&#13;
+  border-collapse: collapse;&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+th, td {&#13;
+  padding: 15px;&#13;
+}&#13;
+&#13;
+h3 {&#13;
+  &#13;
+  color: #0177BF;&#13;
+  &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Work Hub Incidents</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+    data.Inc =[];
+    var grInc = new GlideRecord('incident');
+    grInc.addEncodedQuery('caller_id='+gs.getUserID());
+    grInc.query();
+    while(grInc.next()){
+        var json ={};
+        json.number = grInc.number.toString();
+		json.urgency = grInc.urgency.toString();
+        json.short_description = grInc.short_description.toString();
+        json.assignment_group = grInc.getDisplayValue('assignment_group');
+      data.Inc.push(json);
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-09 21:47:59</sys_created_on>
+        <sys_id>b29e312f47af51109a45dac8536d43ee</sys_id>
+        <sys_name>Work Hub Incidents</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_widget_b29e312f47af51109a45dac8536d43ee</sys_update_name>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h3>Work Hub Incident Details</h3>
+  
+  
+  <table>
+    <tr>
+      <th>Number</th>
+      <th>short Description</th>
+      
+      <th>Urgency</th>
+    </tr>
+    <tr ng-repeat="key in data.Inc">
+    <td>{{key.number}}</td>
+    <td>{{key.short_description}}</td>
+   
+      <td>{{key.urgency}}</td>
+      
+    </tr>
+    
+  </table>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

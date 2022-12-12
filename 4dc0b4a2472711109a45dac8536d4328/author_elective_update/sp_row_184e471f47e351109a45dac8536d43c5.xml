@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column display_value="1">20ca661b476351109a45dac8536d43af</sp_column>
+        <sp_container/>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-09 08:55:23</sys_created_on>
+        <sys_id>184e471f47e351109a45dac8536d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_row_184e471f47e351109a45dac8536d43c5</sys_update_name>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-09 08:55:23</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_row_184e471f47e351109a45dac8536d43c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column display_value="1">20ca661b476351109a45dac8536d43af</sp_column><sp_container/><sys_class_name>sp_row</sys_class_name><sys_created_by>nelman.ranasinghe</sys_created_by><sys_created_on>2022-12-09 08:55:23</sys_created_on><sys_id>184e471f47e351109a45dac8536d43c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sp_row_184e471f47e351109a45dac8536d43c5</sys_update_name><sys_updated_by>nelman.ranasinghe</sys_updated_by><sys_updated_on>2022-12-09 08:55:23</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-134010512</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>04092b8b47a711109a45dac8536d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-09 08:55:23</sys_created_on>
+        <sys_id>184e471f47e351109a45dac8536d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f618ad7a0000001</sys_recorded_at>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-09 08:55:23</sys_updated_on>
+        <type>Row</type>
+        <update_guid>504e471fafe35110a2783b68e6574fc7</update_guid>
+        <update_guid_history>504e471fafe35110a2783b68e6574fc7:-134010512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">285033df476751109a45dac8536d43de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-09 11:24:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>206d88d2ebaf476c926a60a5e4f567e4</sys_id>
+        <sys_metadata>184e471f47e351109a45dac8536d43c5</sys_metadata>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_row_184e471f47e351109a45dac8536d43c5</sys_update_name>
+        <sys_update_version display_value="sp_row_184e471f47e351109a45dac8536d43c5">184e471f47e351109a45dac8536d43c7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

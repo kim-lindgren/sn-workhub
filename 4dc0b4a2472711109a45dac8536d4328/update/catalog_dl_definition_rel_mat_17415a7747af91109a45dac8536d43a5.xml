@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat">
+    <catalog_dl_definition_rel_mat action="INSERT_OR_UPDATE">
+        <applies_to>item</applies_to>
+        <catalog_item/>
+        <dl_definition display_value="Rooms">0311167747af91109a45dac8536d435c</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_950986_work_hub_room</matcher_table>
+        <matcher_table_field>room_name</matcher_table_field>
+        <source_catalog_variable>IO:cdee13cf476711109a45dac8536d43ff</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>choose_room</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_mat</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-10 17:46:48</sys_created_on>
+        <sys_id>17415a7747af91109a45dac8536d43a5</sys_id>
+        <sys_name>IO:cdee13cf476711109a45dac8536d43ff</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_mat_17415a7747af91109a45dac8536d43a5</sys_update_name>
+        <variable_set/>
+    </catalog_dl_definition_rel_mat>
+</record_update>

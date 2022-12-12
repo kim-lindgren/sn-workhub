@@ -29,7 +29,7 @@
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
-        <lookup_price/>
+        <lookup_price>price_per_hour</lookup_price>
         <lookup_table>x_950986_work_hub_room</lookup_table>
         <lookup_unique>false</lookup_unique>
         <lookup_value>time_slot</lookup_value>

@@ -10,9 +10,9 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice>1</choice>
+        <choice_field>time_slot</choice_field>
+        <choice_table>x_950986_work_hub_room</choice_table>
         <column_label>Time slot</column_label>
         <comments/>
         <create_roles/>
@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_950986_work_hub_room</name>

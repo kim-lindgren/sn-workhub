@@ -29,7 +29,7 @@
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
-        <lookup_price>price_per_hour</lookup_price>
+        <lookup_price>booking_fee</lookup_price>
         <lookup_table>x_950986_work_hub_room</lookup_table>
         <lookup_unique>false</lookup_unique>
         <lookup_value>room_name</lookup_value>
@@ -39,13 +39,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>please_select_a_choice</name>
+        <name>please_select_room</name>
         <order/>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Please select time slot</question_text>
+        <question_text>Please select room</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -75,7 +75,7 @@
         <sys_created_by>monika.lythell</sys_created_by>
         <sys_created_on>2022-12-09 14:03:13</sys_created_on>
         <sys_id>c7249c27472b51109a45dac8536d4347</sys_id>
-        <sys_name>Please select time slot</sys_name>
+        <sys_name>Please select room</sys_name>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>

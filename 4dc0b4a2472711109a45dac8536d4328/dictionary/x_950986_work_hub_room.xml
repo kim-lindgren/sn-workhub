@@ -13,7 +13,7 @@
         <element attributes="edge_encryption_enabled=true" label="Room Number" max_length="40" name="room_number" type="string"/>
         <element label="Size" max_length="40" name="size" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
-        <element choice="3" label="Time slot" max_length="40" name="time_slot" type="string">
+        <element choice="1" choice_field="time_slot" choice_table="x_950986_work_hub_room" label="Time slot" max_length="40" name="time_slot" type="choice">
             <choice>
                 <element inactive_on_update="false" label="8 to 9" sequence="100" value="8-9"/>
                 <element inactive_on_update="false" label="9 to 10" sequence="200" value="9-10"/>

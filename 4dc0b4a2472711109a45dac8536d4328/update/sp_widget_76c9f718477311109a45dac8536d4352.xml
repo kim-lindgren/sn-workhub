@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&amp;display=swap');&#13;
+* {&#13;
+  box-sizing: border-box;&#13;
+  font-family: 'Montserrat', sans-serif;&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+table, td, th {  &#13;
+  border: 1px solid #32DBBE;&#13;
+  text-align: left;&#13;
+}&#13;
+&#13;
+table {&#13;
+  border-collapse: collapse;&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+th, td {&#13;
+  padding: 15px;&#13;
+}&#13;
+&#13;
+h3 {&#13;
+  &#13;
+  color: #0177BF;&#13;
+  font-weight: 400;&#13;
+  &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>work_hub_booking</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Work Hub Bookings</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+    data.Bok =[];
+    var grBok = new GlideRecord('x_950986_work_hub_booking');
+    grBok.addEncodedQuery('caller_id='+gs.getUserID());
+    grBok.query();
+    while(grBok.next()){
+        var json ={};
+        json.first_name = grInc.first_name.toString();
+		json.urgency = grInc.urgency.toString();
+        json.short_description = grInc.short_description.toString();
+        json.assignment_group = grInc.getDisplayValue('assignment_group');
+      data.Inc.push(json);
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 14:39:31</sys_created_on>
+        <sys_id>76c9f718477311109a45dac8536d4352</sys_id>
+        <sys_name>Work Hub Bookings</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_widget_76c9f718477311109a45dac8536d4352</sys_update_name>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h3>Work Hub Booking Details</h3>
+  
+  
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>short Description</th>
+      
+      <th>Room</th>
+    </tr>
+    <tr ng-repeat="key in data.Bok">
+    <td>{{key.first_name}}</td>
+    <td>{{key.short_description}}</td>
+   
+      <td>{{key.urgency}}</td>
+      
+    </tr>
+    
+  </table>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

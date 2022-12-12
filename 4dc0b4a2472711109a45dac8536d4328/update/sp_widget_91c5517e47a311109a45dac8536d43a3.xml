@@ -5,19 +5,17 @@
   /* widget controller */
   var c = this;
 	
-	
-//	if(g_user.hasRole('x_950986_work_hub.customer')){
-//			showRegBtn =false;
-//	}
-	
-	
-	//if(c.x_950986_work_hub.customer ==""){
-		//	"x_950986_work_hub.customer"
-			showRegBtn =false;
-	//	}
-		//else{
-			//showRegBtn =true;
-	//	}
+	//if(g_user.hasRole('x_950986_work_hub.customer')){
+//showRegBtn =false;
+//
+
+
+// if (c.x_950986_work_hub.customer == "") {
+ //   "x_950986_work_hub.customer"
+   // showRegBtn = false;
+//} else {
+ //   showRegBtn = true;
+//}
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>/* &#13;
@@ -68,7 +66,16 @@ header */&#13;
   &#13;
 }&#13;
 &#13;
-/* header-end */</css>
+/* header-end */&#13;
+&#13;
+.welcome {&#13;
+ margin-top: 3rem;&#13;
+color: #008DFF;&#13;
+  padding: 10px 30px 10px 15px;&#13;
+  background: white;&#13;
+  display: inline-block;&#13;
+  clip-path: polygon(0% 0%, 93% 0, 100% 50%, 93% 99%, 0% 100%);&#13;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -87,7 +94,23 @@ header */&#13;
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
-
+    
+    
+    var usr = gs.getUserID(); // sys_id
+    var grusr = new GlideRecord('sys_user');
+    if(grusr.get(usr)){
+        data.fname = grusr.getValue('first_name');
+		data.lname = grusr.getValue('last_name');
+        
+        var grtask = new GlideRecord('task');
+        grtask.addEncodedQuery('opened_by='+grusr.getValue('sys_id'));
+        grtask.orderByDesc('sys_created_on');
+        grtask.query();
+        if(grtask.next()){
+            data.task = grtask.getValue('number');
+        }
+        
+    }
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
@@ -101,22 +124,24 @@ header */&#13;
         <sys_update_name>sp_widget_91c5517e47a311109a45dac8536d43a3</sys_update_name>
         <template><![CDATA[<div class="hero"> 
       <div class="hero-wrapper" layout="row" layout-align="center center">
+        
         <div layout="column">
           <h1 class="md-display-3">WORK HUB SWEDEN</h1>      
         </div>
         <div layout="column">  
-          <a href="https://dev138291.service-now.com/workhub?id=sc_category&sys_id=2800c013472b11109a45dac8536d4354" target="_blank">
          
-            <button ng-if="!data.x_950986_work_hub.customer" class="register" type="button">REGISTER</button>
+           
          
-          </a>
+          
            <a href="https://dev138291.service-now.com/workhub?id=sc_category&sys_id=2800c013472b11109a45dac8536d4354" target="_blank">
            <button class="register" type="button">BOOK A ROOM</button>
           </a>
           
-           <a href="https://dev138291.service-now.com/sp?id=sn_user_registration&sys_id=5b79017247a311109a45dac8536d43a8&profile=0149813247a311109a45dac8536d4373" target="_blank">
+           <a href="https://dev138291.service-now.com/workhub?id=sc_cat_item&sys_id=3f1dd0320a0a0b99000a53f7604a2ef9&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f" target="_blank">
            <button class="register" type="button">REPORT A INCIDENT</button>
           </a>
+          
+          <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}, Last incident oppend by {{data.task}}</h6></div>
          
         </div>
       </div>

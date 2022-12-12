@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Homepage - Container 3">af532dfa47e311109a45dac8536d4343</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-07 11:51:49</sys_created_on>
+        <sys_id>917361fa47e311109a45dac8536d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_row_917361fa47e311109a45dac8536d4371</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-07 11:51:49</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_row_917361fa47e311109a45dac8536d4371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Homepage - Container 3">af532dfa47e311109a45dac8536d4343</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-07 11:51:49</sys_created_on><sys_id>917361fa47e311109a45dac8536d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sp_row_917361fa47e311109a45dac8536d4371</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-07 11:51:49</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1351736701</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>8dc0b4a2472711109a45dac8536d432a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-07 11:51:49</sys_created_on>
+        <sys_id>dd73613e47e311109a45dac8536d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184ec6d7ddb0000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-07 11:51:49</sys_updated_on>
+        <type>Row</type>
+        <update_guid>1973613ed5e311108f4cb9c692a6c36e</update_guid>
+        <update_guid_history>1973613ed5e311108f4cb9c692a6c36e:1351736701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">05c6ff54477311109a45dac8536d43c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 14:26:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>85a50ce7440a43bcb61a12948d902421</sys_id>
+        <sys_metadata>917361fa47e311109a45dac8536d4371</sys_metadata>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_row_917361fa47e311109a45dac8536d4371</sys_update_name>
+        <sys_update_version display_value="sp_row_917361fa47e311109a45dac8536d4371">dd73613e47e311109a45dac8536d436e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

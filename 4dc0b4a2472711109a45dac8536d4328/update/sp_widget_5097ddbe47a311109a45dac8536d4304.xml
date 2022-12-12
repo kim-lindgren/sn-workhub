@@ -10,6 +10,7 @@
 * {&#13;
   box-sizing: border-box;&#13;
   font-family: 'Montserrat', sans-serif;&#13;
+  text-decoration: none;&#13;
 }&#13;
 &#13;
 &#13;
@@ -62,7 +63,7 @@
   margin-top: 10px;&#13;
   font-size: 20px;&#13;
   font-weight: 400;&#13;
-  margin-bottom: 24px;&#13;
+  margin-bottom: 25px;&#13;
   font-family: 'Montserrat', sans-serif;&#13;
 }&#13;
 .booking {&#13;
@@ -93,9 +94,7 @@
   background-color: rgba(50, 219, 190, 0.9);&#13;
   box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);&#13;
 }&#13;
-.image-1 .title a {&#13;
-  color: white;&#13;
-}&#13;
+&#13;
 .image-2 .wrapper {&#13;
   background: url(https://dev138291.service-now.com/x_950986_work_hub.largeRoom.png)&#13;
     20% 1% / cover no-repeat;&#13;
@@ -105,9 +104,7 @@
   background-color: rgba(50, 219, 190, 0.9);&#13;
   box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);&#13;
 }&#13;
-.image-2 .title a {&#13;
-  color: white;&#13;
-}&#13;
+&#13;
 .image-3 .wrapper {&#13;
   background: url(https://dev138291.service-now.com/x_950986_work_hub.conferenceRoom1.png)&#13;
     20% 1% / cover no-repeat;&#13;
@@ -117,9 +114,7 @@
   background-color: rgba(50, 219, 190, 0.9);&#13;
   box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);&#13;
 }&#13;
-.image-3 .title a {&#13;
-  color: white;&#13;
-}&#13;
+&#13;
 </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -158,14 +153,15 @@
               <div class="data">
                 <div class="content">
                   
-                   <a href="https://dev138291.service-now.com/workhub/?id=workhub_room2#calendarView=month"><button class="booking" type="button">RESERVE</button></a>
+                  
+                   <a href="https://dev138291.service-now.com/workhub/?id=sc_cat_item&sys_id=08ab8bcb472711109a45dac8536d43db&sysparm_category=2800c013472b11109a45dac8536d4354"><button class="booking" type="button">RESERVE</button></a>
                   
                   <h1 class="title">
-                    <a>Meeting Room (1-2 persons)</a>
+                    <p>Small Room (1-2 persons)</p>
                   </h1>
                   <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Placeat, laudantium.
+                      ⌚Cost per hour: <strong>40/-</strong>  <br>
+                    ⌚Cost per hour: <strong>40/-</strong>  <br>
                   </p>
                 </div>
               </div>
@@ -177,9 +173,10 @@
             <div class="wrapper">
               <div class="data">
                 <div class="content">
-                  <button class="booking" type="button">RESERVE</button>
+                  
+                  <a href="https://dev138291.service-now.com/workhub/?id=sc_cat_item&sys_id=2b54af0747a711109a45dac8536d4326&sysparm_category=2800c013472b11109a45dac8536d4354"><button class="booking" type="button">RESERVE</button></a>
                   <h1 class="title">
-                    <a>Meeting Room (3-4 persons)</a>
+                    <p>Medium Room (3-4 persons)</p>
                   </h1>
                   <p class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -195,9 +192,11 @@
             <div class="wrapper">
               <div class="data">
                 <div class="content">
-                  <button class="booking" type="button">RESERVE</button>
+                  
+                  <a href="https://dev138291.service-now.com/workhub/?id=sc_cat_item&sys_id=1fc6abc747a711109a45dac8536d4397&sysparm_category=2800c013472b11109a45dac8536d4354"><button class="booking" type="button">RESERVE</button></a>
+                  
                   <h1 class="title">
-                    <a >Conference Room (12 persons)</a>
+                    <p>Conference Room (12 persons)</p>
                   </h1>
                   <p class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -6,7 +6,18 @@
   var c = this;
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.footer {&#13;
+  border-top: 3px solid #f2f2f2;&#13;
+  top: 5rem;&#13;
+  display: flex;&#13;
+  justify-content: center;&#13;
+  flex-direction: column;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.footer-image {&#13;
+  justify-content: center;&#13;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -37,8 +48,13 @@
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
         <sys_update_name>sp_widget_bb0e2a3a472b11109a45dac8536d43a4</sys_update_name>
-        <template><![CDATA[<div>
-Work Hub @ 2022
-</div>]]></template>
+        <template><![CDATA[ <div class="footer">
+    <div class="footer-image">
+       <img img src="x_950986_work_hub.workhub_footer.png" width="200"  alt="Work Hub 2022">
+    </div>
+    <div class="footer-text">
+          <p>Work Hub@2022</p>
+    </div>
+ </div>]]></template>
     </sp_widget>
 </record_update>

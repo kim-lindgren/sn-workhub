@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Small Room (1-2 persons)">08ab8bcb472711109a45dac8536d43db</cat_item>
+        <cat_variable>IO:e4cb7f58477311109a45dac8536d4357</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate duration (end)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+//     var start = g_form.getValue('start');
+//     var end = g_form.getValue('end');
+
+
+//     var startHour = start.toString().substring(11, 13);
+
+//     var startMinute = start.toString().substring(14, 16);
+
+//     startHour = (parseInt(startHour) * 60);
+//     startMinute = parseInt(startMinute);
+//     var startTime = startHour + startMinute;
+
+//     var endHour = end.toString().substring(11, 13);
+// 	var endMinute = end.toString().substring(14, 16);
+	
+// 	endHour = (parseInt(endHour) * 60);
+//     endMinute = parseInt(endMinute);
+//     var endTime = endHour + endMinute; 
+	
+// 	var duration = endTime - startTime;
+	
+// 	g_form.setValue('duration', duration + ' minutes');
+	
+// 	alert(duration);
+
+	var start = g_form.getValue('start_time');
+    var end = g_form.getValue('end_time');
+	
+	var duration = end - start;
+	
+	if (duration < 1){
+		g_form.showFieldMsg('end_time', 'You must book at least 1 hour.')
+	} else {
+		g_form.clearMessages();
+		g_form.clearValue('duration');
+		g_form.setValue('duration', duration);
+	}
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-09 09:55:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7599bd7472751109a45dac8536d43b8</sys_id>
+        <sys_name>Calculate duration (end)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>catalog_script_client_b7599bd7472751109a45dac8536d43b8</sys_update_name>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

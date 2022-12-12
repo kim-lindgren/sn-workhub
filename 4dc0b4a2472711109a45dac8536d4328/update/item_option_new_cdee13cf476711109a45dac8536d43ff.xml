@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Small room">08ab8bcb472711109a45dac8536d43db</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>room_1</default_value>
+        <default_value>Room 1</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -30,9 +30,9 @@
         <list_table/>
         <lookup_label/>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>x_950986_work_hub_room</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>room_name</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
@@ -82,11 +82,11 @@
         <sys_update_name>item_option_new_cdee13cf476711109a45dac8536d43ff</sys_update_name>
         <table/>
         <tooltip/>
-        <type>3</type>
+        <type>22</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
