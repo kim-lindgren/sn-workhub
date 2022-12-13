@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Work Hub Rooms">2800c013472b11109a45dac8536d4354</category>
@@ -46,7 +46,7 @@
         <owner display_value="Monika Lythell">4151f316472311109a45dac8536d43da</owner>
         <picture>a5c7a8ab476b51109a45dac8536d430a</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a52d442f47e751109a45dac8536d433c&amp;sysparm_preview=true", "summary");</preview>
-        <price>9.6451</price>
+        <price>9.6832</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>

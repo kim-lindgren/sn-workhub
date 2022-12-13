@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>5e929283476311109a45dac8536d432f</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e431c034477311109a45dac8536d43fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>description</element>
             <position>1</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>96929283476311109a45dac8536d4330</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6831c034477311109a45dac8536d43fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>price_per_hour</element>
             <position>2</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9a929283476311109a45dac8536d4330</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e831c034477311109a45dac8536d43fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>customer_name</element>
             <position>3</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9e929283476311109a45dac8536d4330</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6c31c034477311109a45dac8536d43fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>room_number</element>
             <position>4</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>92929283476311109a45dac8536d4331</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>ec31c034477311109a45dac8536d43fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>customer_first_name</element>
             <position>5</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>96929283476311109a45dac8536d4331</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6031c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>room_equipment</element>
             <position>6</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9a929283476311109a45dac8536d4331</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e031c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>number_of_hours_booked</element>
             <position>7</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9e929283476311109a45dac8536d4331</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6431c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.split</element>
             <position>8</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>92929283476311109a45dac8536d4332</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e431c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>customer_last_name</element>
             <position>9</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>96929283476311109a45dac8536d4332</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6831c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>room_name</element>
             <position>10</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9a929283476311109a45dac8536d4332</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e831c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>total_price</element>
             <position>11</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9e929283476311109a45dac8536d4332</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6c31c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>customer_number</element>
             <position>12</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>92929283476311109a45dac8536d4333</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>ec31c034477311109a45dac8536d43fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,69 +186,55 @@
             <element>image</element>
             <position>13</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>96929283476311109a45dac8536d4333</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6031c034477311109a45dac8536d43fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>booking_number</element>
+            <element>day</element>
             <position>14</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9a929283476311109a45dac8536d4333</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e031c034477311109a45dac8536d43fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>start_time</element>
+            <element>start</element>
             <position>15</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>9e929283476311109a45dac8536d4333</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>6431c034477311109a45dac8536d43fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>end_time</element>
+            <element>end</element>
             <position>16</position>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>92929283476311109a45dac8536d4334</sys_id>
+            <sys_created_on>2022-12-13 09:50:20</sys_created_on>
+            <sys_id>e431c034477311109a45dac8536d43fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
             <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_glide_duration</element>
-            <position>17</position>
-            <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-08 09:56:15</sys_created_on>
-            <sys_id>96929283476311109a45dac8536d4334</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">8403996a47e711109a45dac8536d4359</sys_ui_section>
-            <sys_updated_by>kim.lindgren</sys_updated_by>
-            <sys_updated_on>2022-12-08 09:56:15</sys_updated_on>
+            <sys_updated_on>2022-12-13 09:50:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>list-alt</glyph>
+        <hint/>
+        <kb_article display_value="KB0010002">37c6d96447f711109a45dac8536d4302</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <label>Knowledge</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</sp_page>
+        <sp_rectangle_menu display_value="Work Hub Main Menu">6f6c56f647e711109a45dac8536d439e</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 21:36:26</sys_created_on>
+        <sys_id>77a81d6447f711109a45dac8536d43ab</sys_id>
+        <sys_name>Knowledge</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_77a81d6447f711109a45dac8536d43ab</sys_update_name>
+        <table/>
+        <type>kb_article</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=77a81d6447f711109a45dac8536d43ab"/>
+</record_update>

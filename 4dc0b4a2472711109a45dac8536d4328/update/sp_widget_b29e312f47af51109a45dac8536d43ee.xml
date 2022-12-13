@@ -6,24 +6,47 @@
   var c = this;
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css>table, td, th {  &#13;
-  border: 1px solid #32DBBE;&#13;
-  text-align: left;&#13;
-}&#13;
+        <css>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&amp;display=swap');&#13;
 &#13;
-table {&#13;
+#table {&#13;
+  font-family: Montserrat, sans-serif;&#13;
   border-collapse: collapse;&#13;
   width: 100%;&#13;
 }&#13;
 &#13;
-th, td {&#13;
-  padding: 15px;&#13;
+#table td, #table th {&#13;
+  border: 1px solid #ddd;&#13;
+  padding: 8px;&#13;
 }&#13;
 &#13;
+#table tr:nth-child(even){background-color: #f2f2f2;}&#13;
+&#13;
+#table tr:hover {background-color: #ddd;}&#13;
+&#13;
+#table th {&#13;
+  padding-top: 12px;&#13;
+  padding-bottom: 12px;&#13;
+  text-align: left;&#13;
+  background-color: #32DBBE;&#13;
+  color: white;&#13;
+}&#13;
+&#13;
+.header {&#13;
+margin: 3rem 0 2rem 0;&#13;
+display: flex;&#13;
+justify-content: center;&#13;
+&#13;
+&#13;
+}&#13;
 h3 {&#13;
-  &#13;
+  font-family: "Montserrat";&#13;
   color: #0177BF;&#13;
+  font-weight: 400;&#13;
   &#13;
+}&#13;
+&#13;
+.bookings {&#13;
+margin-bottom: 3rem;&#13;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -66,12 +89,13 @@ h3 {&#13;
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
         <sys_update_name>sp_widget_b29e312f47af51109a45dac8536d43ee</sys_update_name>
-        <template><![CDATA[<div>
+        <template><![CDATA[<div class= "bookings">
 <!-- your widget template -->
+  <div class="header">
   <h3>Work Hub Incident Details</h3>
+  </div>
   
-  
-  <table>
+  <table id="table">
     <tr>
       <th>Number</th>
       <th>short Description</th>

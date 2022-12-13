@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Work Hub 1670928930040</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_950986_work_hub_1670928930040</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-13 10:55:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1310dc7447b311109a45dac8536d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work Hub 1670928930040</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_app_module_1310dc7447b311109a45dac8536d4302</sys_update_name>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-13 10:55:31</sys_updated_on>
+        <timeline_page/>
+        <title>Work Hub 1670928930040</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_app_module_1310dc7447b311109a45dac8536d4302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Work Hub 1670928930040</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_950986_work_hub_1670928930040</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>monika.lythell</sys_created_by><sys_created_on>2022-12-13 10:55:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1310dc7447b311109a45dac8536d4302</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Work Hub 1670928930040</sys_name><sys_overrides/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sys_app_module_1310dc7447b311109a45dac8536d4302</sys_update_name><sys_updated_by>monika.lythell</sys_updated_by><sys_updated_on>2022-12-13 10:55:31</sys_updated_on><timeline_page/><title>Work Hub 1670928930040</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1473617617</payload_hash>
+        <record_name>Work Hub 1670928930040</record_name>
+        <reverted_from/>
+        <source>b70a49a447b711109a45dac8536d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-13 10:55:31</sys_created_on>
+        <sys_id>9f10dc7447b311109a45dac8536d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1850b201b8e0000001</sys_recorded_at>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-13 10:55:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d710dc744fb3111051897ea40714be04</update_guid>
+        <update_guid_history>d710dc744fb3111051897ea40714be04:-1473617617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Work Hub 1670928930040">e725d0f847b311109a45dac8536d4380</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-13 11:17:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0674ed1cbc8b4a088077eb0923e1a240</sys_id>
+        <sys_metadata>1310dc7447b311109a45dac8536d4302</sys_metadata>
+        <sys_name>Work Hub 1670928930040</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_app_module_1310dc7447b311109a45dac8536d4302</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1310dc7447b311109a45dac8536d4302">9f10dc7447b311109a45dac8536d4304</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

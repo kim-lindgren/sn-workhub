@@ -5,6 +5,9 @@
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
         <element label="Image" max_length="65536" name="image" type="html"/>
+        <element choice="3" label="Items" max_length="32" name="items" reference="x_950986_work_hub_configuration_items" type="reference">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Number of seats" max_length="40" name="number_of_seats" type="integer"/>
         <element attributes="omit_sys_original=true" label="Price per hour" max_length="20" name="price_per_hour" type="currency"/>
@@ -21,5 +24,8 @@
                 <element inactive_on_update="false" label="11 to 12" sequence="400" value="11-12"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="items"/>
+        </index>
     </element>
 </database>

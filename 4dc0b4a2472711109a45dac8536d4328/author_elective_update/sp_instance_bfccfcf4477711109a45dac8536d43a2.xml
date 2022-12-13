@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color/>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9d3c3ce8477711109a45dac8536d43f9</sp_column>
+        <sp_widget display_value="My Requests">f1672671d7301200a9addd173e24d47d</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-13 14:10:48</sys_created_on>
+        <sys_id>bfccfcf4477711109a45dac8536d43a2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MY BOOKED ROOMS</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_bfccfcf4477711109a45dac8536d43a2</sys_update_name>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-13 14:24:46</sys_updated_on>
+        <title>MY BOOKED ROOMS</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"maximum_entries": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=bfccfcf4477711109a45dac8536d43a2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_instance_bfccfcf4477711109a45dac8536d43a2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color/&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;9d3c3ce8477711109a45dac8536d43f9&lt;/sp_column&gt;&lt;sp_widget display_value="My Requests"&gt;f1672671d7301200a9addd173e24d47d&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nelman.ranasinghe&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-13 14:10:48&lt;/sys_created_on&gt;&lt;sys_id&gt;bfccfcf4477711109a45dac8536d43a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;MY BOOKED ROOMS&lt;/sys_name&gt;&lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_bfccfcf4477711109a45dac8536d43a2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nelman.ranasinghe&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-13 14:24:46&lt;/sys_updated_on&gt;&lt;title&gt;MY BOOKED ROOMS&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"maximum_entries": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bfccfcf4477711109a45dac8536d43a2"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>535842937</payload_hash>
+        <record_name>MY BOOKED ROOMS</record_name>
+        <reverted_from/>
+        <source>6e7b54e847f311109a45dac8536d43fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-13 14:24:46</sys_created_on>
+        <sys_id>e00081f8477711109a45dac8536d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1850bdfaf6f0000001</sys_recorded_at>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-13 14:24:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e80081f826771110a0b002bfa25ab7fc</update_guid>
+        <update_guid_history>e80081f826771110a0b002bfa25ab7fc:535842937,3e5ef478577711107f8f2ce0e8858c71:-303050633,84fcf8f4bb771110090a5f9ba20df07d:1671365621,7bccfcf4ce771110ea42379655c811a4:-260519222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MY BOOKED ROOMS">d34009f8477711109a45dac8536d433c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-13 14:26:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>5de8358d82994d048452c51e7e08fe90</sys_id>
+        <sys_metadata>bfccfcf4477711109a45dac8536d43a2</sys_metadata>
+        <sys_name>MY BOOKED ROOMS</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_instance_bfccfcf4477711109a45dac8536d43a2</sys_update_name>
+        <sys_update_version display_value="sp_instance_bfccfcf4477711109a45dac8536d43a2">e00081f8477711109a45dac8536d43fd</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

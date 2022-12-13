@@ -11,7 +11,8 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Small room for 1-2 persons. </p>]]></description>
+        <description><![CDATA[<p><strong>Small room for 1-2 persons</strong></p>
+<p>With space for 1-2 persons, these rooms can be booked for your next meeting.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -31,7 +32,7 @@
         <name>Small Room (1-2 persons)</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
-        <no_cart_v2>true</no_cart_v2>
+        <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>true</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -46,7 +47,7 @@
         <owner display_value="Kim Lindgren">0caed852472311109a45dac8536d439f</owner>
         <picture>a5a8602f476b51109a45dac8536d43f8</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=08ab8bcb472711109a45dac8536d43db&amp;sysparm_preview=true", "summary");</preview>
-        <price>6.1425</price>
+        <price>6.14</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>

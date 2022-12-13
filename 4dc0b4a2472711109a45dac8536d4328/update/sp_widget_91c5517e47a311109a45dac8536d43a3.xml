@@ -70,11 +70,11 @@ header */&#13;
 &#13;
 .welcome {&#13;
  margin-top: 3rem;&#13;
-color: #008DFF;&#13;
+color: white;&#13;
   padding: 10px 30px 10px 15px;&#13;
-  background: white;&#13;
+  background: #32DBBE;&#13;
   display: inline-block;&#13;
-  clip-path: polygon(0% 0%, 93% 0, 100% 50%, 93% 99%, 0% 100%);&#13;
+  &#13;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -126,6 +126,9 @@ color: #008DFF;&#13;
       <div class="hero-wrapper" layout="row" layout-align="center center">
         
         <div layout="column">
+          <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}</h6></div>
+          <!-- <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}, Last incident oppend by {{data.task}}</h6></div> -->
+          
           <h1 class="md-display-3">WORK HUB SWEDEN</h1>      
         </div>
         <div layout="column">  
@@ -141,7 +144,7 @@ color: #008DFF;&#13;
            <button class="register" type="button">REPORT A INCIDENT</button>
           </a>
           
-          <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}, Last incident oppend by {{data.task}}</h6></div>
+          
          
         </div>
       </div>

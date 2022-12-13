@@ -31,7 +31,7 @@
         <name>Medium room (3-4 persons)</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
-        <no_cart_v2>true</no_cart_v2>
+        <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>true</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -46,7 +46,7 @@
         <owner display_value="Kim Lindgren">0caed852472311109a45dac8536d439f</owner>
         <picture>316a686f476b51109a45dac8536d4393</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2b54af0747a711109a45dac8536d4326&amp;sysparm_preview=true", "summary");</preview>
-        <price>9.2138</price>
+        <price>9.21</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>

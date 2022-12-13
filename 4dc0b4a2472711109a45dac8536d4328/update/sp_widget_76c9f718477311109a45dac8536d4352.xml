@@ -13,22 +13,38 @@
   text-decoration: none;&#13;
 }&#13;
 &#13;
-table, td, th {  &#13;
-  border: 1px solid #32DBBE;&#13;
-  text-align: left;&#13;
-}&#13;
-&#13;
-table {&#13;
+#table {&#13;
+  font-family: Montserrat, sans-serif;&#13;
   border-collapse: collapse;&#13;
   width: 100%;&#13;
 }&#13;
 &#13;
-th, td {&#13;
-  padding: 15px;&#13;
+#table td, #table th {&#13;
+  border: 1px solid #ddd;&#13;
+  padding: 8px;&#13;
 }&#13;
 &#13;
+#table tr:nth-child(even){background-color: #f2f2f2;}&#13;
+&#13;
+#table tr:hover {background-color: #ddd;}&#13;
+&#13;
+#table th {&#13;
+  padding-top: 12px;&#13;
+  padding-bottom: 12px;&#13;
+  text-align: left;&#13;
+  background-color: #32DBBE;&#13;
+  color: white;&#13;
+}&#13;
+&#13;
+.header {&#13;
+margin: 3rem 0 2rem 0;&#13;
+display: flex;&#13;
+justify-content: center;&#13;
+&#13;
+&#13;
+}&#13;
 h3 {&#13;
-  &#13;
+  font-family: "Montserrat";&#13;
   color: #0177BF;&#13;
   font-weight: 400;&#13;
   &#13;
@@ -51,17 +67,17 @@ h3 {&#13;
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
-    data.Bok =[];
-    var grBok = new GlideRecord('x_950986_work_hub_booking');
-    grBok.addEncodedQuery('caller_id='+gs.getUserID());
-    grBok.query();
-    while(grBok.next()){
+    data.Req =[];
+    var grReq = new GlideRecord('task');
+    grReq.addEncodedQuery('requested_by='+gs.getUserID());
+    grReq.query();
+    while(grReq.next()){
         var json ={};
-        json.first_name = grInc.first_name.toString();
-		json.urgency = grInc.urgency.toString();
-        json.short_description = grInc.short_description.toString();
-        json.assignment_group = grInc.getDisplayValue('assignment_group');
-      data.Inc.push(json);
+        json.first_name = grReq.first_name.toString();
+		//json.urgency = grBok.urgency.toString();
+//json.short_description = grBok.short_description.toString();
+//json.assignment_group = grBok.getDisplayValue('assignment_group');
+      data.Req.push(json);
     }
 })();]]></script>
         <servicenow>false</servicenow>
@@ -76,25 +92,24 @@ h3 {&#13;
         <sys_update_name>sp_widget_76c9f718477311109a45dac8536d4352</sys_update_name>
         <template><![CDATA[<div>
 <!-- your widget template -->
-  <h3>Work Hub Booking Details</h3>
+  <div class="header">
+  	<h3>Work Hub Booking Details</h3>
+  </div>
   
-  
-  <table>
+ <!-- <table id="table">
     <tr>
       <th>Name</th>
       <th>short Description</th>
       
       <th>Room</th>
     </tr>
-    <tr ng-repeat="key in data.Bok">
+    <tr ng-repeat="key in data.Req">
     <td>{{key.first_name}}</td>
-    <td>{{key.short_description}}</td>
    
-      <td>{{key.urgency}}</td>
       
     </tr>
     
-  </table>
+  </table> -->
   
 </div>]]></template>
     </sp_widget>

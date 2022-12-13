@@ -22,31 +22,6 @@
         return;
     }
 
-//     var start = g_form.getValue('start');
-//     var end = g_form.getValue('end');
-
-
-//     var startHour = start.toString().substring(11, 13);
-
-//     var startMinute = start.toString().substring(14, 16);
-
-//     startHour = (parseInt(startHour) * 60);
-//     startMinute = parseInt(startMinute);
-//     var startTime = startHour + startMinute;
-
-//     var endHour = end.toString().substring(11, 13);
-// 	var endMinute = end.toString().substring(14, 16);
-	
-// 	endHour = (parseInt(endHour) * 60);
-//     endMinute = parseInt(endMinute);
-//     var endTime = endHour + endMinute; 
-	
-// 	var duration = endTime - startTime;
-	
-// 	g_form.setValue('duration', duration + ' minutes');
-	
-// 	alert(duration);
-
 	var start = g_form.getValue('start_time');
     var end = g_form.getValue('end_time');
 	
