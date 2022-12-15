@@ -35,12 +35,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>room</name>
-        <order>110</order>
+        <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -54,8 +54,9 @@
         <record/>
         <record_producer_table/>
         <reference>x_950986_work_hub_room</reference>
-        <reference_qual>size&lt;=15^EQ</reference_qual>
-        <reference_qual_condition table="x_950986_work_hub_room">size&lt;=15^EQ<item endquery="false" field="size" goto="false" newquery="false" operator="&lt;=" or="false" value="15"/>
+        <reference_qual>size&lt;=15^u_bookable=true^EQ</reference_qual>
+        <reference_qual_condition table="x_950986_work_hub_room">size&lt;=15^u_bookable=true^EQ<item endquery="false" field="size" goto="false" newquery="false" operator="&lt;=" or="false" value="15"/>
+            <item endquery="false" field="u_bookable" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <rich_text/>

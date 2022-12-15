@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Small Room (1-2 persons)">08ab8bcb472711109a45dac8536d43db</cat_item>
+        <cat_variable>IO:e4cb7f58477311109a45dac8536d4357</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate duration (end)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+	var start = g_form.getValue('start_time');
+    var end = g_form.getValue('end_time');
+	
+	var duration = end - start;
+	
+	if (duration < 1){
+		g_form.showFieldMsg('end_time', 'You must book at least 1 hour.')
+	} else {
+		g_form.clearMessages();
+		g_form.clearValue('duration');
+		g_form.setValue('duration', duration);
+	}
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-09 09:55:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7599bd7472751109a45dac8536d43b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Calculate duration (end)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>catalog_script_client_b7599bd7472751109a45dac8536d43b8</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-13 17:10:49</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>catalog_script_client_b7599bd7472751109a45dac8536d43b8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Small Room (1-2 persons)"&gt;08ab8bcb472711109a45dac8536d43db&lt;/cat_item&gt;&lt;cat_variable&gt;IO:e4cb7f58477311109a45dac8536d4357&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Calculate duration (end)&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+	var start = g_form.getValue('start_time');
+    var end = g_form.getValue('end_time');
+	
+	var duration = end - start;
+	
+	if (duration &lt; 1){
+		g_form.showFieldMsg('end_time', 'You must book at least 1 hour.')
+	} else {
+		g_form.clearMessages();
+		g_form.clearValue('duration');
+		g_form.setValue('duration', duration);
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kim.lindgren&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-09 09:55:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b7599bd7472751109a45dac8536d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate duration (end)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_b7599bd7472751109a45dac8536d43b8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kim.lindgren&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-13 17:10:49&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>702097490</payload_hash>
+        <record_name>Calculate duration (end)</record_name>
+        <reverted_from/>
+        <source>722a6ab2472b11109a45dac8536d43a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-13 17:10:49</sys_created_on>
+        <sys_id>b006e974473b11109a45dac8536d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1850c77b2cf0000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-13 17:10:49</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>f806e974253b1110205102395cff7020</update_guid>
+        <update_guid_history>f806e974253b1110205102395cff7020:702097490,4eb208a043b311104563c81f33ab64f6:-257673042,63f0cceca273111003f6859eb01ea661:-1249828134,dec0ccecfa731110ed077e3ba8cfe381:-995810412,9bdf3bdcf8731110266e024c88c9e6b9:-591379556,d790560c303fd110a79023c786b28bcd:0,3f0c290894bbd1103049eb7cd7620de2:949650780,1fc7610468bbd1107352517f93331fff:-1682658528,66b72d0417bbd110b7d423f6bba1fb15:815877488,9885a94061bbd110d34f583af05a74c9:-1689119543,e08465002ebbd1101f944e1031ccdbab:-455035018,1ec7ecabf86b51102008af62dd72c05c:-530723816,f787a0ab256b5110c0e62ef3835947ce:301525082,6d47ec6b086b5110b6a9b15175d0b164:2145194690,bc27a86bd16b51101dd344a4ca9c90a5:1408417147,43f6ec2b7b6b5110b6fb55128c1a18c2:-732371631,13662c2b676b5110044a9af93489034e:2091838102,5a26202b426b51109eb83ec3e1105798:1236467224,06b5ece7286b5110d23d62eb73e8a4a7:-1833645384,e195aca7376b5110601edb6fc836a5f7:990152049,bb84e8a7866b51108d9f252aa1db54be:1388784609,974424a7e56b51103ce4c5bed42846cc:-1430130393,65d3e0a7386b511010e5da0b44c86c4a:-615781709,5b432867786b5110407ebf225898511f:-827217213,69236467036b51104f7bd270c6d3b2a6:-1623490617,9cf2e0279e6b511074accba283e1056e:-1919668984,40d22067c56b5110b4525f91404ac6ae:-1658317242,d0a268272b6b51101e0ea8f952ca0a20:1491972390,04622827e06b5110957707dc603daaa8:-255166650,3e50a8a34c6b51104fedd9033e81894a:1878174890,cabf10a3006b5110982ecbc46bab5fa1:-484075653,e33fd463ad6b5110c7cdb70afaf14a78:-265082507,df1f9cefa42b51103e624e1b2f04ddf1:1060378037,810f54630b6b5110054a3ac35e2f2333:594475413,caadd8ef6e2b51106e860d43044b3e8c:-1769542278,86a6d8a7fb2b5110cf9e7dc704c3aca1:-874031417,4746902b8c2b5110173581d1c0c1b24a:-1343932720,6bf414a79d2b5110426ee70c1c6520c9:1375294140,e2b4d0a7d72b5110eaa05aba8270b41d:-1241328899,4d9414a7e72b5110676fc4bfa525bebe:-624142946,5f645c67652b5110ce35372ae89c099f:681639359,a214d867ce2b51103aa34eb4d352e31e:633895401,b7239827092b5110c8dc78d3b4a22dce:27872279,56c29ce3f52b511045b178107087cf01:1481800430,b3425ca3a72b511096907665e4f46aec:-329247072,183290e3d62b5110cf1e7081dabb8643:1694438729,31e15463ca2b511049b8893e1017b9ca:-2013026092,02c1d4a3b32b51101fb5e35d747a5f50:290035319,dea158a3982b51103b67e3dc0b9c8833:-639428621,2281d0a3002b51101471ab19cf11cd91:863007672,fd115463042b5110399f9b7e0dc40cb9:-1069626525,10d090630c2b51104f4db1e5da0292ef:-329247072,d19f44efb6e751109691d0e22d54f14a:1271838241,716f88af77e75110488a1b8b8846b136:790449761,084fc0aff1e75110b78f89a32cc7db4e:1062927605,c3de08afc5e75110d62786f4f7e1f821:-1591235727,3faecc2fe7e7511011cfbd61a48b7faf:1253436719,3e5ec82fb8e75110c8dfdb79e471ad4d:2055499256,81cdcc2f02e75110198107cdccf36da8:872716868,c20dcceb13e75110858c050de8132062:-2013952901,219cccabdce75110b7c887b23a5491fa:1939512002,78e637979fa75110d669f64182805731:528681920,a3b5ff1760a751104a220773d404d94e:1808801472,b0057317d3a75110113502f0d58ae497:-1637757052,90e43bd3ffa75110ce43a460836effdd:706854472,77647793aea75110ed934e3d9a5fc4fa:524616118,e8f37f932aa75110ec2bcda0d19622f8:1348536171,9b63bb53aaa7511072619187e68b7e92:-1803728168,ba43b39398a7511057472d59346793e3:-1443542560,9cc277537fa7511047404165b15355da:-1922381035,7e12fb1309a7511049e1a810bcd1fcd1:-976797277,809133dfac675110b36848e0cda99e67:-1331056582,4cafa39f4d67511076711bf02327ea87:-1444545274,094faf5fb7675110df6e93e748ae2c3e:310079028,af0fab5f2f67511069bf0b80eb37e5bd:25034509,ba11e713b6675110863876cb0684ecb1:-623047411,0dcfd79f7f27511036b05a1a64181844:1316957130,976f1b9f3027511045dd642b5e39d2a8:1165257416,e43f5b5f58275110ed368bbe7fa37855:836667988,4c6e5f1f0127511008e16d6eea3f14b8:598696696,dfebd79bca2751106de14c656ad81bcb:-1760380207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Calculate duration (end)">a4250461477b11109a45dac8536d43e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-15 18:03:00</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>31f040c258eb46138d1b5fbe985abd19</sys_id>
+        <sys_metadata>b7599bd7472751109a45dac8536d43b8</sys_metadata>
+        <sys_name>Calculate duration (end)</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>catalog_script_client_b7599bd7472751109a45dac8536d43b8</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_b7599bd7472751109a45dac8536d43b8">b006e974473b11109a45dac8536d4321</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

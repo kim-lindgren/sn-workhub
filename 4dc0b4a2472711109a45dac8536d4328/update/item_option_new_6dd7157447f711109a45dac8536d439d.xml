@@ -35,7 +35,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -54,8 +54,10 @@
         <record/>
         <record_producer_table/>
         <reference>x_950986_work_hub_room</reference>
-        <reference_qual>size=20^EQ</reference_qual>
-        <reference_qual_condition table="x_950986_work_hub_room">size=20^EQ<item endquery="false" field="size" goto="false" newquery="false" operator="=" or="false" value="20"/>
+        <reference_qual>size&gt;=15^size&lt;=25^u_bookable=true^EQ</reference_qual>
+        <reference_qual_condition table="x_950986_work_hub_room">size&gt;=15^size&lt;=25^u_bookable=true^EQ<item endquery="false" field="size" goto="false" newquery="false" operator="&gt;=" or="false" value="15"/>
+            <item endquery="false" field="size" goto="false" newquery="false" operator="&lt;=" or="false" value="25"/>
+            <item endquery="false" field="u_bookable" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <rich_text/>

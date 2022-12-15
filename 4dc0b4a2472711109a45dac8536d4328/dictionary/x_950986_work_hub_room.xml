@@ -3,7 +3,6 @@
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="omit_sys_original=true" label="Booking Fee" max_length="20" name="booking_fee" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
         <element label="Image" max_length="65536" name="image" type="html"/>
         <element choice="3" label="Items" max_length="32" name="items" reference="x_950986_work_hub_configuration_items" type="reference">
             <choice/>
@@ -12,10 +11,9 @@
         <element label="Number of seats" max_length="40" name="number_of_seats" type="integer"/>
         <element attributes="omit_sys_original=true" label="Price per hour" max_length="20" name="price_per_hour" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Room Equipment" max_length="40" name="room_equipment" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Room Name" max_length="40" name="room_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Room Name" max_length="40" name="room_name" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Room Number" max_length="40" name="room_number" type="string"/>
         <element label="Size" max_length="40" name="size" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
         <element choice="1" choice_field="time_slot" choice_table="x_950986_work_hub_room" label="Time slot" max_length="40" name="time_slot" type="choice">
             <choice>
                 <element inactive_on_update="false" label="8 to 9" sequence="100" value="8-9"/>
@@ -24,6 +22,7 @@
                 <element inactive_on_update="false" label="11 to 12" sequence="400" value="11-12"/>
             </choice>
         </element>
+        <element default="true" label="Bookable" max_length="40" name="u_bookable" type="boolean"/>
         <index name="index">
             <element name="items"/>
         </index>

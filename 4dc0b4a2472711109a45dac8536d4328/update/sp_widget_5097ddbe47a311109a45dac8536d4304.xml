@@ -68,20 +68,21 @@
   font-family: 'Montserrat', sans-serif;&#13;
 }&#13;
 .booking {&#13;
- background:#0177BF;&#13;
+ 	background:#32DBBE;&#13;
   padding: .5rem 1.3rem;&#13;
   font-size: 10px;&#13;
   color: white;&#13;
   border: 1px solid #ffffff;&#13;
   border-radius: 40px;&#13;
   margin-top: .2rem;&#13;
+    &#13;
   &#13;
 }&#13;
 .booking:hover {&#13;
   transform: scale(1.2);&#13;
-  background: #f37465;&#13;
+  background: #0177BF;&#13;
   transition: 4s;&#13;
-  box-shadow: 0 5px 15px 2px rgb(63 44 44/ 18% );&#13;
+  &#13;
 &#13;
 &#13;
 }&#13;
@@ -136,7 +137,22 @@
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
-
+	
+ /* To access Roomident table */	
+    data.Room =[];
+    var grRoom = new GlideRecord('room');
+	
+/* To get caller_id */		
+    grRoom.query();
+    while(grRoom.next()){
+        var json = {};
+		json.number_of_seats = grRoom.number_of_seats.toString();
+		json.price_per_hour = grRoom.price_per_hour.toString();
+		json.booking_fee = grRoom.booking_fee.toString();
+        json.description = grRoom.description.toString();
+        
+      data.Room.push(json);
+    }
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
@@ -159,11 +175,11 @@
                    <a href="https://dev138291.service-now.com/workhub/?id=sc_cat_item&sys_id=08ab8bcb472711109a45dac8536d43db&sysparm_category=2800c013472b11109a45dac8536d4354"><button class="booking" type="button">RESERVE</button></a>
                   
                   <h1 class="title">
-                    <p>Small Room (1-2 persons)</p>
+                    <p>Small Room ({{key.number_of_seats}} seats)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>40/-</strong>  <br>
-                    ]]>🪟<![CDATA[Room Size: <strong>40/-</strong>  <br>
+                    ⌚Cost per hour: <strong>{{key.price_per_hour}}</strong>  <br>
+                    ]]>🪟<![CDATA[Room Size: <strong>{{key.size}}</strong>  <br>
                   </p>
                 </div>
               </div>
@@ -181,8 +197,8 @@
                     <p>Medium Room (3-4 persons)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>40/-</strong>  <br>
-                    ]]>🪟<![CDATA[Room Size: <strong>40/-</strong>  <br>
+                    ⌚Cost per hour: <strong>SEK 80/-</strong>  <br>
+                    ]]>🪟<![CDATA[Room Size: <strong>20 sq m</strong>  <br>
                   </p>
                 </div>
               </div>
@@ -201,8 +217,8 @@
                     <p>Conference Room (12 persons)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>40/-</strong>  <br>
-                    ]]>🪟<![CDATA[Room Size: <strong>40/-</strong>  <br>
+                    ⌚Cost per hour: <strong>SEK 100/-</strong>  <br>
+                    ]]>🪟<![CDATA[Room Size: <strong>30 sq m</strong>  <br>
                   </p>
                 </div>
               </div>
