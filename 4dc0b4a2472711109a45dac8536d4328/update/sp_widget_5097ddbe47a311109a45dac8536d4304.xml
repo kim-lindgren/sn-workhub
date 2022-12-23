@@ -143,16 +143,16 @@
     var grRoom = new GlideRecord('room');
 	
 /* To get caller_id */		
-    grRoom.query();
-    while(grRoom.next()){
-        var json = {};
-		json.number_of_seats = grRoom.number_of_seats.toString();
-		json.price_per_hour = grRoom.price_per_hour.toString();
-		json.booking_fee = grRoom.booking_fee.toString();
-        json.description = grRoom.description.toString();
+//     grRoom.query();
+//     while(grRoom.next()){
+//         var json = {};
+// 		json.number_of_seats = grRoom.number_of_seats.toString();
+// 		json.price_per_hour = grRoom.price_per_hour.toString();
+// 		json.booking_fee = grRoom.booking_fee.toString();
+//         json.description = grRoom.description.toString();
         
-      data.Room.push(json);
-    }
+//       data.Room.push(json);
+//     }
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
@@ -172,14 +172,14 @@
                 <div class="content">
                   
                   
-                   <a href="https://dev138291.service-now.com/workhub/?id=sc_cat_item&sys_id=08ab8bcb472711109a45dac8536d43db&sysparm_category=2800c013472b11109a45dac8536d4354"><button class="booking" type="button">RESERVE</button></a>
+                   <a href="https://dev138291.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Db55a02a7477311109a45dac8536d4319"><button class="booking" type="button">RESERVE</button></a>
                   
                   <h1 class="title">
-                    <p>Small Room ({{key.number_of_seats}} seats)</p>
+                    <p>Small Room ({key.number_of_seats} seats)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>{{key.price_per_hour}}</strong>  <br>
-                    ]]>🪟<![CDATA[Room Size: <strong>{{key.size}}</strong>  <br>
+                    ⌚Cost per hour: <strong>{key.price_per_hour}</strong>  <br>
+                    ]]>🪟<![CDATA[Room Size: <strong>{key.size}</strong>  <br>
                   </p>
                 </div>
               </div>

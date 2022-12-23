@@ -8,13 +8,13 @@
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Create Booking">0bd048f0477311109a45dac8536d4358</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -46,7 +46,7 @@
         <owner display_value="Kim Lindgren">0caed852472311109a45dac8536d439f</owner>
         <picture>316a686f476b51109a45dac8536d4393</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2b54af0747a711109a45dac8536d4326&amp;sysparm_preview=true", "summary");</preview>
-        <price>9.21</price>
+        <price>9.0376</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>

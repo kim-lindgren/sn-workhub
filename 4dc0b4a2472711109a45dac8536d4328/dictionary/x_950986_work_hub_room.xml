@@ -13,6 +13,13 @@
         <element attributes="edge_encryption_enabled=true" label="Room Equipment" max_length="40" name="room_equipment" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Room Name" max_length="40" name="room_name" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Room Number" max_length="40" name="room_number" type="string"/>
+        <element choice="1" label="Room type" max_length="40" name="room_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Small room" sequence="1" value="small_room"/>
+                <element inactive_on_update="false" label="Medium room" sequence="2" value="medium_room"/>
+                <element inactive_on_update="false" label="Conference room" sequence="3" value="conference_room"/>
+            </choice>
+        </element>
         <element label="Size" max_length="40" name="size" type="integer"/>
         <element choice="1" choice_field="time_slot" choice_table="x_950986_work_hub_room" label="Time slot" max_length="40" name="time_slot" type="choice">
             <choice>

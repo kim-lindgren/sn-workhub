@@ -16,7 +16,7 @@
         <order>0</order>
         <parent/>
         <roles/>
-        <sc_catalog display_value="Book a room">19198f0b472711109a45dac8536d43bd</sc_catalog>
+        <sc_catalog display_value="Work Hub Bookable Rooms">488bc7cb472711109a45dac8536d433e</sc_catalog>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>monika.lythell</sys_created_by>
         <sys_created_on>2022-12-08 14:23:00</sys_created_on>
