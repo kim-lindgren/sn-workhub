@@ -4,16 +4,13 @@
         <element attributes="encode_utf8=false" label="Customer First Name" max_length="32" name="customer_first_name" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Customer Last Name" max_length="32" name="customer_last_name" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="Customer Number" max_length="32" name="customer_number" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Day of booking" mandatory="true" max_length="40" name="day" type="glide_date"/>
-        <element attributes="encode_utf8=false" label="Description" max_length="32" name="description" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="encode_utf8=false" label="Description" max_length="32" name="description" reference="x_950986_work_hub_room_type" type="reference"/>
         <element label="End" mandatory="true" max_length="40" name="end" type="integer"/>
-        <element attributes="encode_utf8=false" label="Image" max_length="32" name="image" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="encode_utf8=false" label="Image" max_length="32" name="image" reference="x_950986_work_hub_room_type" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Price per hour" max_length="40" name="price_per_hour" type="integer"/>
         <element attributes="encode_utf8=false" label="Room Equipment" max_length="32" name="room_equipment" reference="x_950986_work_hub_room" type="reference"/>
         <element attributes="encode_utf8=false" label="Room Name" max_length="32" name="room_name" reference="x_950986_work_hub_room" type="reference"/>
-        <element attributes="encode_utf8=false" label="Room Number" max_length="32" name="room_number" reference="x_950986_work_hub_room" type="reference"/>
         <element label="Start" mandatory="true" max_length="40" name="start" type="integer"/>
         <element label="Total Price" max_length="40" name="total_price" type="integer"/>
         <element label="Duration" max_length="40" name="u_glide_duration" read_only="true" type="glide_duration"/>
@@ -27,22 +24,16 @@
             <element name="customer_name"/>
         </index>
         <index name="index4">
-            <element name="customer_number"/>
-        </index>
-        <index name="index5">
             <element name="description"/>
         </index>
-        <index name="index6">
+        <index name="index5">
             <element name="image"/>
         </index>
-        <index name="index7">
+        <index name="index6">
             <element name="room_equipment"/>
         </index>
-        <index name="index8">
+        <index name="index7">
             <element name="room_name"/>
-        </index>
-        <index name="index9">
-            <element name="room_number"/>
         </index>
     </element>
 </database>

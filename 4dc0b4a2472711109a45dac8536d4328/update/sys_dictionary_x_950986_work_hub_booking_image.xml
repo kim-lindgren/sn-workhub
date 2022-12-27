@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_950986_work_hub_room">x_950986_work_hub_room</reference>
+        <reference display_value="" name="x_950986_work_hub_room_type">x_950986_work_hub_room_type</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>

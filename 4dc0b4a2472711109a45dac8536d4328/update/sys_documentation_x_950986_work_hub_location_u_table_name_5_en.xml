@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="customer_number" label="Customer Number" language="en" table="x_950986_work_hub_booking">
+    <sys_documentation element="u_table_name_5" label="New Table Name" language="en" table="x_950986_work_hub_location">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>customer_number</element>
+            <element>u_table_name_5</element>
             <help/>
             <hint/>
-            <label>Customer Number</label>
+            <label>New Table Name</label>
             <language>en</language>
-            <name>x_950986_work_hub_booking</name>
-            <plural>Customer Numbers</plural>
+            <name>x_950986_work_hub_location</name>
+            <plural>New Table Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-06 14:24:37</sys_created_on>
-            <sys_name>Customer Number</sys_name>
+            <sys_created_by>kim.lindgren</sys_created_by>
+            <sys_created_on>2022-12-27 15:31:14</sys_created_on>
+            <sys_name>New Table Name</sys_name>
             <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
             <sys_policy/>
             <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-            <sys_update_name>sys_documentation_x_950986_work_hub_booking_customer_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_950986_work_hub_location_u_table_name_5_en</sys_update_name>
             <url/>
             <url_target/>
         </sys_documentation>

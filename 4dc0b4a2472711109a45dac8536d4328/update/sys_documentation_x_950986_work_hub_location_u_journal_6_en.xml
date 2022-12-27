@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="room_number" label="Room Number" language="en" table="x_950986_work_hub_booking">
+    <sys_documentation element="u_journal_6" label="New Journal" language="en" table="x_950986_work_hub_location">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>room_number</element>
+            <element>u_journal_6</element>
             <help/>
             <hint/>
-            <label>Room Number</label>
+            <label>New Journal</label>
             <language>en</language>
-            <name>x_950986_work_hub_booking</name>
-            <plural>Room Numbers</plural>
+            <name>x_950986_work_hub_location</name>
+            <plural>New Journals</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-06 14:24:36</sys_created_on>
-            <sys_name>Room Number</sys_name>
+            <sys_created_by>kim.lindgren</sys_created_by>
+            <sys_created_on>2022-12-27 15:32:07</sys_created_on>
+            <sys_name>New Journal</sys_name>
             <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
             <sys_policy/>
             <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-            <sys_update_name>sys_documentation_x_950986_work_hub_booking_room_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_950986_work_hub_location_u_journal_6_en</sys_update_name>
             <url/>
             <url_target/>
         </sys_documentation>
