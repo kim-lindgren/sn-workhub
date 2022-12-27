@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_bookable" table="x_950986_work_hub_room">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="bookable" table="x_950986_work_hub_room_type">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
@@ -21,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_bookable</element>
+        <element>bookable</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -30,7 +35,7 @@
         <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_950986_work_hub_room</name>
+        <name>x_950986_work_hub_room_type</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,12 +51,12 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kim.lindgren</sys_created_by>
-        <sys_created_on>2022-12-15 18:19:26</sys_created_on>
+        <sys_created_on>2022-12-23 11:03:01</sys_created_on>
         <sys_name>Bookable</sys_name>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-        <sys_update_name>sys_dictionary_x_950986_work_hub_room_u_bookable</sys_update_name>
+        <sys_update_name>sys_dictionary_x_950986_work_hub_room_type_bookable</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

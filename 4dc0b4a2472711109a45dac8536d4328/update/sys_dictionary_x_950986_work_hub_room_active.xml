@@ -11,7 +11,7 @@
         <column_label>Active</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>true</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>

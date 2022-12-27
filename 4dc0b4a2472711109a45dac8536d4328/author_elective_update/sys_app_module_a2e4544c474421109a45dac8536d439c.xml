@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Work Hub ">e8debcae472711109a45dac8536d43d6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Room types</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_950986_work_hub_room_type</name>
+        <order>10</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-23 13:39:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2e4544c474421109a45dac8536d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Room type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_app_module_a2e4544c474421109a45dac8536d439c</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-23 13:39:28</sys_updated_on>
+        <timeline_page/>
+        <title>Room type</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_app_module_a2e4544c474421109a45dac8536d439c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Work Hub ">e8debcae472711109a45dac8536d43d6</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Room types</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_950986_work_hub_room_type</name><order>10</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-23 13:39:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a2e4544c474421109a45dac8536d439c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Room type</sys_name><sys_overrides/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sys_app_module_a2e4544c474421109a45dac8536d439c</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-23 13:39:28</sys_updated_on><timeline_page/><title>Room type</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>612349833</payload_hash>
+        <record_name>Room type</record_name>
+        <reverted_from/>
+        <source>722a6ab2472b11109a45dac8536d43a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-23 13:39:28</sys_created_on>
+        <sys_id>9685d0cc474421109a45dac8536d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853f35cbe70000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-23 13:39:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>de85d0cc7044211040fe14ad8d4ae430</update_guid>
+        <update_guid_history>de85d0cc7044211040fe14ad8d4ae430:612349833</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Room type">64361400478421109a45dac8536d43a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-23 13:42:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4c181a43b06348c0b7daaf11d2b2e0d9</sys_id>
+        <sys_metadata>a2e4544c474421109a45dac8536d439c</sys_metadata>
+        <sys_name>Room type</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_app_module_a2e4544c474421109a45dac8536d439c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a2e4544c474421109a45dac8536d439c">9685d0cc474421109a45dac8536d4331</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

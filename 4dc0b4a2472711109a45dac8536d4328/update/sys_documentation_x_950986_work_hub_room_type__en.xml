@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="room_type" label="Room type" language="en" table="x_950986_work_hub_room">
+    <sys_documentation element="" label="Room type" language="en" table="x_950986_work_hub_room_type">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>room_type</element>
+            <element/>
             <help/>
             <hint/>
             <label>Room type</label>
             <language>en</language>
-            <name>x_950986_work_hub_room</name>
+            <name>x_950986_work_hub_room_type</name>
             <plural>Room types</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kim.lindgren</sys_created_by>
-            <sys_created_on>2022-12-23 14:25:26</sys_created_on>
+            <sys_created_on>2022-12-23 10:59:06</sys_created_on>
             <sys_name>Room type</sys_name>
             <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
             <sys_policy/>
             <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-            <sys_update_name>sys_documentation_x_950986_work_hub_room_room_type_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_950986_work_hub_room_type__en</sys_update_name>
             <url/>
             <url_target/>
         </sys_documentation>

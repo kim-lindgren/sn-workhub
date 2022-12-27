@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Autofill Booking RP based on room type</description>
+        <internal_name>autofill_booking_rp</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Autofill Booking RP</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-23 09:21:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f16a577b47b311109a45dac8536d43b8</sys_id>
+        <sys_name>Autofill Booking RP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_hub_flow_f16a577b47b311109a45dac8536d43b8</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f16a577b47b311109a45dac8536d43b8^sys_idNOT INb16a577b47b311109a45dac8536d43bb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f16a577b47b311109a45dac8536d43b8</id>
+        <name>Autofill Booking RP</name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-23 09:21:07</sys_created_on>
+        <sys_id>b16a577b47b311109a45dac8536d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-23 09:21:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b16a577b47b311109a45dac8536d43bb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f16a577b47b311109a45dac8536d43b8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f16a577b47b311109a45dac8536d43b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f16a577b47b311109a45dac8536d43b8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f16a577b47b311109a45dac8536d43b8"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f16a577b47b311109a45dac8536d43b8"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f16a577b47b311109a45dac8536d43b8"/>
+</record_update>
