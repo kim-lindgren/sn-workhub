@@ -14,6 +14,20 @@
             <sys_updated_by>kim.lindgren</sys_updated_by>
             <sys_updated_on>2022-12-06 18:40:30</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>kim.lindgren</sys_created_by>
+            <sys_created_on>2023-01-13 08:49:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>258cd76e9710211084411400f153aff7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_950986_work_hub_booking" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">1e67bd2e476b11109a45dac8536d43f2</sys_ui_form>
+            <sys_ui_section caption="Room type" display_value="Room type" name="x_950986_work_hub_booking" sys_domain="global" view="Default view">ed8c1f2e9710211084411400f153af00</sys_ui_section>
+            <sys_updated_by>kim.lindgren</sys_updated_by>
+            <sys_updated_on>2023-01-13 08:49:22</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_950986_work_hub_booking</name>
             <roles/>

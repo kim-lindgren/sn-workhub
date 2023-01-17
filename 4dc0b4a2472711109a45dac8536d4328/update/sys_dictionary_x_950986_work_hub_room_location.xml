@@ -38,7 +38,7 @@
         <name>x_950986_work_hub_room</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_950986_work_hub_location">x_950986_work_hub_location</reference>
         <reference_cascade_rule/>

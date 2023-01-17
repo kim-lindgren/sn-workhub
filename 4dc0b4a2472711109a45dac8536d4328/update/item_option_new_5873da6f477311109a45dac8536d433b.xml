@@ -53,9 +53,12 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference>x_950986_work_hub_opening_hours</reference>
+        <reference_qual>closed!=true^date&gt;javascript:gs.endOfToday()^EQ</reference_qual>
+        <reference_qual_condition table="x_950986_work_hub_opening_hours">closed!=true^date&gt;javascript:gs.endOfToday()^EQ<item endquery="false" field="closed" goto="false" newquery="false" operator="!=" or="false" value="true"/>
+            <item endquery="false" field="date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.endOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -82,7 +85,7 @@
         <sys_update_name>item_option_new_5873da6f477311109a45dac8536d433b</sys_update_name>
         <table/>
         <tooltip/>
-        <type>9</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

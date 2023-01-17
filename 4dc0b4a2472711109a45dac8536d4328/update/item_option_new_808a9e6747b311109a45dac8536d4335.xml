@@ -54,8 +54,8 @@
         <record/>
         <record_producer_table>x_950986_work_hub_booking</record_producer_table>
         <reference>x_950986_work_hub_room</reference>
-        <reference_qual>room_type=small_room^EQ</reference_qual>
-        <reference_qual_condition table="x_950986_work_hub_room">room_type=small_room^EQ<item display_value="Small room" endquery="false" field="room_type" goto="false" newquery="false" operator="=" or="false" value="small_room"/>
+        <reference_qual>room_type=f2b01c88474421109a45dac8536d4325</reference_qual>
+        <reference_qual_condition table="x_950986_work_hub_room">room_type.name=small_room^EQ<item endquery="false" field="room_type.name" goto="false" newquery="false" operator="=" or="false" value="small_room"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <rich_text/>
@@ -84,7 +84,7 @@
         <sys_update_name>item_option_new_808a9e6747b311109a45dac8536d4335</sys_update_name>
         <table/>
         <tooltip/>
-        <type>22</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

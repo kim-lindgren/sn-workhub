@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="93f94e089764e11084411400f153af07" label="Time slot" max_length="40" name="x_950986_work_hub_time_slot" type="collection">
+        <element label="Five minutes" max_length="40" name="five_minutes" type="boolean"/>
+        <element label="Full hour" max_length="40" name="full_hour" type="boolean"/>
+        <element label="Half hour" max_length="40" name="half_hour" type="boolean"/>
+        <element label="Quarter hour" max_length="40" name="quarter_hour" type="boolean"/>
+        <element label="Ten minutes" max_length="40" name="ten_minutes" type="boolean"/>
+        <element label="Time" max_length="40" name="time" type="glide_time"/>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Report an Incident">e53e3737975ca11084411400f153af85</sc_cat_item>
+        <sc_catalog display_value="Book a room">19198f0b472711109a45dac8536d43bd</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-17 12:48:13</sys_created_on>
+        <sys_id>a389b4009760e11084411400f153af38</sys_id>
+        <sys_name>Book a room.Report an Incident</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a389b4009760e11084411400f153af38</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>

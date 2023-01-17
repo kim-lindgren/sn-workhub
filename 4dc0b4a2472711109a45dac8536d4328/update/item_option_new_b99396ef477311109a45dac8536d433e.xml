@@ -82,7 +82,7 @@
         <sys_update_name>item_option_new_b99396ef477311109a45dac8536d433e</sys_update_name>
         <table/>
         <tooltip/>
-        <type>4</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

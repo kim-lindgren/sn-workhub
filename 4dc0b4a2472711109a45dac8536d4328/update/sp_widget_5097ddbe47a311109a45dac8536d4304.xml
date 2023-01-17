@@ -81,7 +81,7 @@
 .booking:hover {&#13;
   transform: scale(1.2);&#13;
   background: #0177BF;&#13;
-  transition: 4s;&#13;
+  transition: .5s;&#13;
   &#13;
 &#13;
 &#13;
@@ -172,14 +172,14 @@
                 <div class="content">
                   
                   
-                   <a href="https://dev138291.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Db55a02a7477311109a45dac8536d4319"><button class="booking" type="button">RESERVE</button></a>
+                   <a href="https://dev138291.service-now.com/workhub?id=sc_cat_item&sys_id=b55a02a7477311109a45dac8536d4319&sysparm_category=2800c013472b11109a45dac8536d4354"><button class="booking" type="button">RESERVE</button></a>
                   
                   <h1 class="title">
-                    <p>Small Room ({key.number_of_seats} seats)</p>
+                    <p>Small Room (1-2 persons)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>{key.price_per_hour}</strong>  <br>
-                    ]]>🪟<![CDATA[Room Size: <strong>{key.size}</strong>  <br>
+                    ⌚Cost per hour: <strong>€5</strong>  <br>
+                    ]]>🪟<![CDATA[Room Size: <strong>15 sq m</strong>  <br>
                   </p>
                 </div>
               </div>
@@ -197,8 +197,8 @@
                     <p>Medium Room (3-4 persons)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>SEK 80/-</strong>  <br>
-                    ]]>🪟<![CDATA[Room Size: <strong>20 sq m</strong>  <br>
+                    ⌚Cost per hour: <strong>€8</strong>  <br>
+                    ]]>🪟<![CDATA[Room Size: <strong>25 sq m</strong>  <br>
                   </p>
                 </div>
               </div>
@@ -217,7 +217,7 @@
                     <p>Conference Room (12 persons)</p>
                   </h1>
                   <p class="text">
-                    ⌚Cost per hour: <strong>SEK 100/-</strong>  <br>
+                    ⌚Cost per hour: <strong>€15</strong>  <br>
                     ]]>🪟<![CDATA[Room Size: <strong>30 sq m</strong>  <br>
                   </p>
                 </div>

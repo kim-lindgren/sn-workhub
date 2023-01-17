@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="20704bcb97d8611084411400f153af72" label="Opening hours" max_length="40" name="x_950986_work_hub_opening_hours" type="collection">
+        <element label="Closed" max_length="40" name="closed" type="boolean"/>
+        <element label="Closing time" max_length="40" name="closing_time" type="integer"/>
+        <element display="true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Opening time" max_length="40" name="opening_time" type="integer"/>
+    </element>
+</database>

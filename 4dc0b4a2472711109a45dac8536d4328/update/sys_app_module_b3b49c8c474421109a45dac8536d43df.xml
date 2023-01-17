@@ -8,11 +8,11 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>SEPARATOR</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Room types</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
+        <name>x_950986_work_hub_room_type</name>
         <order>10</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -24,16 +24,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b3b49c8c474421109a45dac8536d43df</sys_id>
-        <sys_name>Room type</sys_name>
+        <sys_name>Room types</sys_name>
         <sys_overrides/>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
         <sys_update_name>sys_app_module_b3b49c8c474421109a45dac8536d43df</sys_update_name>
         <timeline_page/>
-        <title>Room type</title>
+        <title>Room types</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>Room type</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

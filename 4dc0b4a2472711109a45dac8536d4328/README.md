@@ -26,4 +26,5 @@ If you find yourself unable to import your repository due to the presence of fil
    Currently listed dependencies:
    * System Import Sets
    * External User Self-Registration
+   * Incident
    * Task table schema
