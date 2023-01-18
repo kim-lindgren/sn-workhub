@@ -72,8 +72,10 @@ header */&#13;
  margin-top: 3rem;&#13;
 color: white;&#13;
   padding: 10px 30px 10px 15px;&#13;
-  background: #32DBBE;&#13;
+  /*background: #32DBBE;*/&#13;
   display: inline-block;&#13;
+  font-size: 26px;&#13;
+  font-family: cursive;&#13;
   &#13;
 }</css>
         <data_table>sp_instance</data_table>
@@ -126,7 +128,7 @@ color: white;&#13;
       <div class="hero-wrapper" layout="row" layout-align="center center">
         
         <div layout="column">
-          <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}</h6></div>
+          <div><h5 class="welcome"> Hello {{data.fname}}!</h5></div>
           <!-- <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}, Last incident oppend by {{data.task}}</h6></div> -->
           
           <h1 class="md-display-3">WORK HUB SWEDEN</h1>      
@@ -140,9 +142,9 @@ color: white;&#13;
            <button class="register" type="button">BOOK A ROOM</button>
           </a>
           
-           <a href="https://dev138291.service-now.com/workhub?id=sc_cat_item&sys_id=3f1dd0320a0a0b99000a53f7604a2ef9&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f" target="_blank">
+           <!-- <a href="https://dev138291.service-now.com/workhub?id=sc_cat_item&sys_id=3f1dd0320a0a0b99000a53f7604a2ef9&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f" target="_blank">
            <button class="register" type="button">REPORT A INCIDENT</button>
-          </a>
+          </a> -->
           
           
          

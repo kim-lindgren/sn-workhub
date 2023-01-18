@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Work Hub Rooms">2800c013472b11109a45dac8536d4354</category>
-        <checked_out/>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -47,7 +47,7 @@
         <owner display_value="Kim Lindgren">0caed852472311109a45dac8536d439f</owner>
         <picture>a5a8602f476b51109a45dac8536d43f8</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=08ab8bcb472711109a45dac8536d43db&amp;sysparm_preview=true", "summary");</preview>
-        <price>6.025</price>
+        <price>6.1916</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -60,7 +60,7 @@
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>kim.lindgren</sys_created_by>
         <sys_created_on>2022-12-08 14:05:57</sys_created_on>

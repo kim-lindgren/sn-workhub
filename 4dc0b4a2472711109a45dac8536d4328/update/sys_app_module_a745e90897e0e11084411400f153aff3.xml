@@ -13,7 +13,7 @@
         <mobile_title>Configuration Items</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_950986_work_hub_configuration_items</name>
-        <order/>
+        <order>3</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>

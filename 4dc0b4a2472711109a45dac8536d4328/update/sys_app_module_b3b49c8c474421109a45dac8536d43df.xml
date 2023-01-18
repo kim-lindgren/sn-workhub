@@ -13,7 +13,7 @@
         <mobile_title>Room types</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_950986_work_hub_room_type</name>
-        <order>10</order>
+        <order>2</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>

@@ -5,6 +5,6 @@
         <element label="Half hour" max_length="40" name="half_hour" type="boolean"/>
         <element label="Quarter hour" max_length="40" name="quarter_hour" type="boolean"/>
         <element label="Ten minutes" max_length="40" name="ten_minutes" type="boolean"/>
-        <element label="Time" max_length="40" name="time" type="glide_time"/>
+        <element display="true" label="Time" max_length="40" name="time" type="glide_time"/>
     </element>
 </database>

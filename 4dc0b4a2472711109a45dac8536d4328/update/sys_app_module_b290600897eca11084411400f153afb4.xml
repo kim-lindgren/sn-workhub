@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Work Hub Incident">3a90600897eca11084411400f153afb0</application>
+        <application display_value="Work Hub ">e8debcae472711109a45dac8536d43d6</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -13,7 +13,7 @@
         <mobile_title>Work Hub Incidents</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_950986_work_hub_work_hub_incident</name>
-        <order/>
+        <order>4</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -33,7 +33,7 @@
         <timeline_page/>
         <title>Work Hub Incidents</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>Incidents</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

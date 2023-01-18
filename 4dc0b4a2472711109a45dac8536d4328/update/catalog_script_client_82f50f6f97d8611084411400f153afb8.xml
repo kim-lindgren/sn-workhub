@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Small Room RP">b55a02a7477311109a45dac8536d4319</cat_item>
+        <cat_item display_value="Small Room (1-2 persons)">b55a02a7477311109a45dac8536d4319</cat_item>
         <cat_variable>IO:5873da6f477311109a45dac8536d433b</cat_variable>
         <condition/>
         <description/>
@@ -21,16 +21,7 @@
    if (isLoading || newValue == '') {
       return;
    }
-// 	var ga = new GlideAjax('OpeningHours');
-// ga.addParam('sysparm_name', 'sendOpeningHours');
-// ga.addParam('sysparm_date', g_form.getDisplayValue('day').date);
-// ga.getXML(callback);
 
-// function callback(response) {
-//     var answer = response.responseXML.documentElement.getAttribute('answer');
-//     alert(answer);
-//     g_form.setValue('start', answer);
-// }
 	var date = g_form.getReference('day', callback);
 	
 	function callback(date) {
