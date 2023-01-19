@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="65dc7c6e472711109a45dac8536d43b7" label="Booking" max_length="40" name="x_950986_work_hub_booking" type="collection">
-        <element label="End" mandatory="true" max_length="40" name="end" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="End" mandatory="true" max_length="40" name="end" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="encode_utf8=false" label="Room Name" max_length="32" name="room_name" reference="x_950986_work_hub_room" type="reference"/>
-        <element label="Start" mandatory="true" max_length="40" name="start" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Start" mandatory="true" max_length="40" name="start" type="string"/>
         <element label="Total Price" max_length="40" name="total_price" type="integer"/>
-        <element attributes="encode_utf8=false" label="Date" max_length="32" name="u_date" reference="x_950986_work_hub_opening_hours" type="reference"/>
+        <element attributes="encode_utf8=false" label="Date" mandatory="true" max_length="32" name="u_date" reference="x_950986_work_hub_opening_hours" type="reference"/>
         <element attributes="encode_utf8=false" label="User" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="room_name"/>

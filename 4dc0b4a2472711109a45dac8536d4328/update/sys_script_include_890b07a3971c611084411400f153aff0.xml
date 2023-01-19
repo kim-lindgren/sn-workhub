@@ -13,12 +13,15 @@ AlreadyBooked.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         var date = this.getParameter('sysparm_date');
 		var room = this.getParameter('sysparm_room')
         var gr = new GlideRecord('x_950986_work_hub_booking');
-        gr.addQuery('room_name.room_name', room);
+        gr.addQuery('room_name', room);
 		gr.addQuery('u_date', date);
-		gs.info(date);
+		gs.info("Date: " + date)
+		gs.info("Room: " + room)
         gr.query();
+		gs.info(gr.start)
 		var array = []
         while (gr.next()) {
+			gs.info(gr.start)
 			array.push(gr.start + " to " + gr.end)
         }
 		return JSON.stringify(array)

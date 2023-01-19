@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
-        <cat_item/>
+        <cat_item display_value="Small Room (1-2 persons)">b55a02a7477311109a45dac8536d4319</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>javascript:gs.getUserID()</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>end</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -35,25 +35,25 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
-        <map_to_field>false</map_to_field>
+        <mandatory>false</mandatory>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>user</name>
-        <order>100</order>
+        <name>end_temp</name>
+        <order>140</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>User</question_text>
+        <question_text>End (temp)</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table/>
-        <reference>sys_user</reference>
+        <record_producer_table>x_950986_work_hub_booking</record_producer_table>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -73,23 +73,23 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>kim.lindgren</sys_created_by>
-        <sys_created_on>2022-12-22 09:20:26</sys_created_on>
-        <sys_id>46efc2eb477311109a45dac8536d43ee</sys_id>
-        <sys_name>User</sys_name>
+        <sys_created_on>2023-01-19 08:33:31</sys_created_on>
+        <sys_id>bb62dea497e0651084411400f153af20</sys_id>
+        <sys_name>End (temp)</sys_name>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-        <sys_update_name>item_option_new_46efc2eb477311109a45dac8536d43ee</sys_update_name>
+        <sys_update_name>item_option_new_bb62dea497e0651084411400f153af20</sys_update_name>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Select room and time">6d8f0a6b477311109a45dac8536d4388</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -98,22 +98,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=46efc2eb477311109a45dac8536d43ee"/>
-    <fx_price action="delete_multiple" query="id=46efc2eb477311109a45dac8536d43ee"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bb62dea497e0651084411400f153af20"/>
+    <fx_price action="delete_multiple" query="id=bb62dea497e0651084411400f153af20"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>46efc2eb477311109a45dac8536d43ee</id>
+        <id>bb62dea497e0651084411400f153af20</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>kim.lindgren</sys_created_by>
-        <sys_created_on>2022-12-22 09:20:26</sys_created_on>
-        <sys_id>06a0922f477311109a45dac8536d4390</sys_id>
+        <sys_created_on>2023-01-19 08:33:31</sys_created_on>
+        <sys_id>7362dea497e0651084411400f153af24</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kim.lindgren</sys_updated_by>
-        <sys_updated_on>2022-12-22 09:20:26</sys_updated_on>
+        <sys_updated_on>2023-01-19 08:33:31</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -121,16 +121,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>46efc2eb477311109a45dac8536d43ee</id>
+        <id>bb62dea497e0651084411400f153af20</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>kim.lindgren</sys_created_by>
-        <sys_created_on>2022-12-22 09:20:26</sys_created_on>
-        <sys_id>c2a0922f477311109a45dac8536d438f</sys_id>
+        <sys_created_on>2023-01-19 08:33:31</sys_created_on>
+        <sys_id>b762dea497e0651084411400f153af23</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kim.lindgren</sys_updated_by>
-        <sys_updated_on>2022-12-22 09:20:26</sys_updated_on>
+        <sys_updated_on>2023-01-19 08:33:31</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

@@ -6,9 +6,9 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
-        <applies_to>set</applies_to>
-        <cat_item/>
-        <cat_variable>IO:5873da6f477311109a45dac8536d433b</cat_variable>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Small Room (1-2 persons)">b55a02a7477311109a45dac8536d4319</cat_item>
+        <cat_variable>IO:e6575ca4972c251084411400f153af43</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -24,7 +24,7 @@
 
     var ga = new GlideAjax('AlreadyBooked');
     ga.addParam('sysparm_name', 'sendBookings');
-    ga.addParam('sysparm_date', g_form.getValue('day'));
+    ga.addParam('sysparm_date', g_form.getValue('date'));
     ga.addParam('sysparm_room', g_form.getValue('room_name'));
     ga.getXML(callback);
 
@@ -32,11 +32,15 @@
         var answer = response.responseXML.documentElement.getAttribute('answer');
 		
         answer = JSON.parse(answer);
-// 		alert(answer);
-		g_form.showFieldMsg('day', 'Reservations:');
+		
+		if (answer.length > 0) {
+			g_form.showFieldMsg('room_name', 'Reservations:');
+		} else {
+			g_form.showFieldMsg('room_name', 'No time slots reserved.');
+		}
         for (var i = 0; i < answer.length; i++) {
 			
-		g_form.showFieldMsg('day', answer[i])
+		g_form.showFieldMsg('room_name', answer[i])
         }
     }
 }]]></script>
@@ -55,7 +59,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
-        <variable_set display_value="Select room and time">6d8f0a6b477311109a45dac8536d4388</variable_set>
+        <variable_set/>
         <view/>
     </catalog_script_client>
 </record_update>

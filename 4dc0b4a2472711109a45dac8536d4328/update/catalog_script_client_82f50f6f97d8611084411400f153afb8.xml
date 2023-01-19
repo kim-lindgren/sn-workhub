@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Small Room (1-2 persons)">b55a02a7477311109a45dac8536d4319</cat_item>
-        <cat_variable>IO:5873da6f477311109a45dac8536d433b</cat_variable>
+        <cat_variable>IO:90ad8c2c97e8251084411400f153af8b</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -22,13 +22,13 @@
       return;
    }
 
-	var date = g_form.getReference('day', callback);
+	var date = g_form.getReference('date', callback);
 	
 	function callback(date) {
 		g_form.clearMessages();
 		var opening_time = date.getValue('opening_time');
 		var closing_time = date.getValue('closing_time');
-		g_form.showFieldMsg('day', 'Opening hours: ' + opening_time + ' - ' + closing_time + '.')
+		g_form.showFieldMsg('date', 'Opening hours: ' + opening_time + ' - ' + closing_time + '.')
 	}
 	
 
