@@ -26,8 +26,8 @@
 	
 	function callback(date) {
 		g_form.clearMessages();
-		var opening_time = date.getValue('opening_time');
-		var closing_time = date.getValue('closing_time');
+		var opening_time = date.getValue('u_opens');
+		var closing_time = date.getValue('u_closes');
 		g_form.showFieldMsg('date', 'Opening hours: ' + opening_time + ' - ' + closing_time + '.')
 	}
 	

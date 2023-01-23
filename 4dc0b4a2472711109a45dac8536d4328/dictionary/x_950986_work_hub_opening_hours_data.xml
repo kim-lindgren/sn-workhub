@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2f5b396597e8291084411400f153afdc" extends="sys_import_set_row" label="Opening hours data" max_length="40" name="x_950986_work_hub_opening_hours_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Closed" label="Closed" max_length="40" name="u_closed" type="string"/>
+        <element attributes="import_attribute_name=Closing time" label="Closing time" max_length="40" name="u_closing_time" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="string"/>
+        <element attributes="import_attribute_name=Opening time" label="Opening time" max_length="40" name="u_opening_time" type="integer"/>
+    </element>
+</database>

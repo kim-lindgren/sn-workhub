@@ -20,14 +20,18 @@ AlreadyBooked.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 		var array = []
         while (bookingGr.next()) {
-			gs.info(bookingGr.start)
-			array.push(bookingGr.start.time.time + " to " + bookingGr.end.time.time)
+			var startTime = bookingGr.start.time.getDisplayValue().slice(0, -3)
+			var endTime = bookingGr.end.time.getDisplayValue().slice(0, -3)
+			array.push(startTime + " to " + endTime)
         }
+		array.sort()
+
 		return JSON.stringify(array)
     },
 
     type: 'AlreadyBooked'
-});]]></script>
+});
+]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>kim.lindgren</sys_created_by>
         <sys_created_on>2023-01-16 10:58:29</sys_created_on>

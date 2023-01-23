@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Time slot transform map 2</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[// (function transformRow(source, target, map, log, isUpdate) {
+
+// 	if(source.u_time_slot != "")
+
+
+// {
+
+
+//         var time = new GlideTime(source.u_time_slot);
+
+
+//       target.time = time;
+
+
+// }
+
+// })(source, target, map, log, action==="update");]]></script>
+        <source_table>x_950986_work_hub_time_slot_data</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-17 18:53:05</sys_created_on>
+        <sys_id>e3fc864c9764e11084411400f153afb4</sys_id>
+        <sys_name>Time slot transform map 2</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_transform_map_e3fc864c9764e11084411400f153afb4</sys_update_name>
+        <target_table>x_950986_work_hub_time_slot</target_table>
+    </sys_transform_map>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_transform_map_e3fc864c9764e11084411400f153afb4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;
+    &lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;
+        &lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;
+        &lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;
+        &lt;name&gt;Time slot transform map 2&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;run_business_rules&gt;true&lt;/run_business_rules&gt;
+        &lt;run_script&gt;true&lt;/run_script&gt;
+        &lt;script&gt;&lt;![CDATA[// (function transformRow(source, target, map, log, isUpdate) {
+
+// 	if(source.u_time_slot != "")
+
+
+// {
+
+
+//         var time = new GlideTime(source.u_time_slot);
+
+
+//       target.time = time;
+
+
+// }
+
+// })(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;
+        &lt;source_table&gt;x_950986_work_hub_time_slot_data&lt;/source_table&gt;
+        &lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;kim.lindgren&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-01-17 18:53:05&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e3fc864c9764e11084411400f153afb4&lt;/sys_id&gt;
+        &lt;sys_name&gt;Time slot transform map 2&lt;/sys_name&gt;
+        &lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_map_e3fc864c9764e11084411400f153afb4&lt;/sys_update_name&gt;
+        &lt;target_table&gt;x_950986_work_hub_time_slot&lt;/target_table&gt;
+    &lt;/sys_transform_map&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1949972100</payload_hash>
+        <record_name>Time slot transform map 2</record_name>
+        <reverted_from/>
+        <source>e261392997a8291084411400f153af49</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-22 08:46:12</sys_created_on>
+        <sys_id>4b1235e997a8291084411400f153af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185d8a8176a0000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2023-01-22 08:46:12</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>871235e98fa82910b5743ea22c87ea1a</update_guid>
+        <update_guid_history>871235e98fa82910b5743ea22c87ea1a:0,2c085e84f5a4e110ba71ae07c3cc2f9d:-400111558,ad9596400ca4e110a794d45476766530:1535630866,7fe0524064a4e110b65d74d58cb556e9:-233374326,c01d8e0c4c64e11013b2bfbe14a0d9e7:-610511158</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-22 09:23:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>1de7d2d83b124aa08da1775562157640</sys_id>
+        <sys_metadata>e3fc864c9764e11084411400f153afb4</sys_metadata>
+        <sys_name>Time slot transform map 2</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_transform_map_e3fc864c9764e11084411400f153afb4</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_e3fc864c9764e11084411400f153afb4">4b1235e997a8291084411400f153af1a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
