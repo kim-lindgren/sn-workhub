@@ -18,15 +18,22 @@ AlreadyBooked.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		bookingGr.addQuery('u_date', date);
         bookingGr.query();
 
-		var array = []
+		var startArray = []
+		var endArray = []
         while (bookingGr.next()) {
-			var startTime = bookingGr.start.time.getDisplayValue().slice(0, -3)
-			var endTime = bookingGr.end.time.getDisplayValue().slice(0, -3)
-			array.push(startTime + " to " + endTime)
-        }
-		array.sort()
 
-		return JSON.stringify(array)
+// 			array.push(startTime + " to " + endTime)
+			startArray.push(bookingGr.start.time.getDisplayValue())
+			endArray.push(bookingGr.end.time.getDisplayValue())
+        }
+		startArray.sort()
+		endArray.sort()
+		gs.info("startArray: " + startArray)
+		var bookingsArray = [startArray, endArray]
+		gs.info("bookingsarray: " +bookingsArray)
+// 		gs.info(JSON.stringify(bookingsArray))
+		
+		return JSON.stringify(bookingsArray)
     },
 
     type: 'AlreadyBooked'

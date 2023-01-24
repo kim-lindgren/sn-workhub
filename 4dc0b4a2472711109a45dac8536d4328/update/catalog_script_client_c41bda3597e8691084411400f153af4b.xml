@@ -8,20 +8,35 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Small Room (1-2 persons)">b55a02a7477311109a45dac8536d4319</cat_item>
-        <cat_variable>IO:e6575ca4972c251084411400f153af43</cat_variable>
+        <cat_variable>IO:449c4ce897e8251084411400f153af13</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Get times already booked</name>
+        <name>Booking times validation (end)</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading || newValue == '') {
         return;
     }
+    if (!g_form.getDisplayValue('start')) {
+        return;
+    }
 
+    var startTime = g_form.getDisplayValue('start')
+    var endTime = g_form.getDisplayValue('end')
+
+    // START TIME BEFORE END TIME (not dependent on GlideAjax)
+    if (startTime >= endTime) {
+        alert('The start time must be before the end time.')
+        g_form.clearValue('start')
+        g_form.clearValue('end')
+        return
+    }
+
+	// NO OVERLAPPING RESERVATIONS
     var ga = new GlideAjax('AlreadyBooked');
     ga.addParam('sysparm_name', 'sendBookings');
     ga.addParam('sysparm_date', g_form.getValue('date'));
@@ -30,30 +45,40 @@
 
     function callback(response) {
         var answer = response.responseXML.documentElement.getAttribute('answer');
-		
+
         answer = JSON.parse(answer);
-		if (answer[0].length > 0) {
-			g_form.showFieldMsg('room_name', 'Reservations:');
-		} else {
-			g_form.showFieldMsg('room_name', 'No time slots reserved.');
-		}
-        for (var i = 0; i < answer[0].length; i++) {
-				g_form.showFieldMsg('room_name', answer[0][i].slice(0, -3) + ' to ' + answer[1][i].slice(0, -3))
+
+        var startTimesArray = answer[0]
+        var endTimesArray = answer[1]
+
+
+        for (var i = 0; i < startTimesArray.length; i++) {
+            if (startTime == startTimesArray[i] || endTime == endTimesArray[i] ||
+                startTime < startTimesArray[i] && endTime > endTimesArray[i] ||
+                startTime < startTimesArray[i] && endTime > startTimesArray[i] ||
+                startTime > startTimesArray[i] && startTime < endTimesArray[i] ||
+                startTime < endTimesArray[i] && endTime > endTimesArray[i]) {
+                alert("Overlapping reservations")
+                g_form.clearValue('start')
+                g_form.clearValue('end')
+                return
+            }
+
         }
     }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>kim.lindgren</sys_created_by>
-        <sys_created_on>2023-01-18 18:16:44</sys_created_on>
+        <sys_created_on>2023-01-23 06:25:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e60c4f5c97e4251084411400f153af49</sys_id>
-        <sys_name>Get times already booked</sys_name>
+        <sys_id>c41bda3597e8691084411400f153af4b</sys_id>
+        <sys_name>Booking times validation (end)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
-        <sys_update_name>catalog_script_client_e60c4f5c97e4251084411400f153af49</sys_update_name>
+        <sys_update_name>catalog_script_client_c41bda3597e8691084411400f153af4b</sys_update_name>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

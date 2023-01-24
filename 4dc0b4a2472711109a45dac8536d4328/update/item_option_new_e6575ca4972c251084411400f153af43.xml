@@ -35,7 +35,7 @@
         <lookup_value>sys_id</lookup_value>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -55,7 +55,9 @@
         <record_producer_table>x_950986_work_hub_booking</record_producer_table>
         <reference>x_950986_work_hub_room</reference>
         <reference_qual>room_type=f2b01c88474421109a45dac8536d4325</reference_qual>
-        <reference_qual_condition/>
+        <reference_qual_condition table="x_950986_work_hub_room">room_type=f2b01c88474421109a45dac8536d4325^EQ<item display_table="x_950986_work_hub_room_type" display_value="Small room" endquery="false" field="room_type" goto="false" newquery="false" operator="=" or="false" value="f2b01c88474421109a45dac8536d4325"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
