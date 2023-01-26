@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_950986_work_hub_room</basic_apply_to>
+        <basic_query_from>x_950986_work_hub_booking</basic_query_from>
+        <insert_callback/>
+        <name>Bookings</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	current.addQuery('room', parent.getValue('name'));
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-13 13:51:41</sys_created_on>
+        <sys_id>084830f0477711109a45dac8536d43de</sys_id>
+        <sys_name>Bookings</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_relationship_084830f0477711109a45dac8536d43de</sys_update_name>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=084830f0477711109a45dac8536d43de"/>
+</record_update>

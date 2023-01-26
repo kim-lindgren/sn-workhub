@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="mwl.calendar">40b8391bdb10230002157a613996190b</sp_dependency>
+        <sp_widget display_value="Booking Calendar">ab84228747a311109a45dac8536d433d</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 11:14:42</sys_created_on>
+        <sys_id>6f84228747a311109a45dac8536d4344</sys_id>
+        <sys_name>mwl.calendar.Copy of Angular Bootstrap Calendar</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_6f84228747a311109a45dac8536d4344</sys_update_name>
+    </m2m_sp_widget_dependency>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Conference Room 2">a52d442f47e751109a45dac8536d433c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-09 13:30:54</sys_created_on>
+        <sys_id>9c5d082f47e751109a45dac8536d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Room 2.SNC External</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_9c5d082f47e751109a45dac8536d43b3</sys_update_name>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-09 13:30:54</sys_updated_on>
+        <user_criteria display_value="">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_9c5d082f47e751109a45dac8536d43b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Conference Room 2">a52d442f47e751109a45dac8536d433c</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>monika.lythell</sys_created_by><sys_created_on>2022-12-09 13:30:54</sys_created_on><sys_id>9c5d082f47e751109a45dac8536d43b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conference Room 2.SNC External</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_9c5d082f47e751109a45dac8536d43b3</sys_update_name><sys_updated_by>monika.lythell</sys_updated_by><sys_updated_on>2022-12-09 13:30:54</sys_updated_on><user_criteria display_value="">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1616373591</payload_hash>
+        <record_name>Conference Room 2.SNC External</record_name>
+        <reverted_from/>
+        <source>48e328d1472311109a45dac8536d43f8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-12-02 15:23:07</sys_created_on>
+        <sys_id>00064478477311109a45dac8536d437d</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184d36f23780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>cc064478db73111024f5ea667c29337c</update_guid>
+        <update_guid_history>cc064478db73111024f5ea667c29337c:-1616373591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Conference Room 2.SNC External">c8064478477311109a45dac8536d437f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-13 10:11:20</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>3d7bee9b79d640ecac3ff4b0ca4ba5d9</sys_id>
+        <sys_metadata>9c5d082f47e751109a45dac8536d43b3</sys_metadata>
+        <sys_name>Conference Room 2.SNC External</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_9c5d082f47e751109a45dac8536d43b3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_9c5d082f47e751109a45dac8536d43b3">00064478477311109a45dac8536d437d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

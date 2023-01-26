@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Edit Button (Equipment)">082f3822476711109a45dac8536d437c</button>
+        <button_parent_table>x_950986_work_hub_equipment</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>sys_id</field_name>
+        <input_source>auto</input_source>
+        <input_style>inline</input_style>
+        <input_type>source_field</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Sys ID</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>sys_id</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:35</sys_created_on>
+        <sys_id>402f3822476711109a45dac8536d437d</sys_id>
+        <sys_name>Sys ID</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_402f3822476711109a45dac8536d437d</sys_update_name>
+        <table_name>x_950986_work_hub_equipment</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=402f3822476711109a45dac8536d437d"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_sg_ui_parameter_402f3822476711109a45dac8536d437d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Equipment)">082f3822476711109a45dac8536d437c</button>
+        <button_parent_table>x_950986_work_hub_equipment</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>sys_id</field_name>
+        <input_source>auto</input_source>
+        <input_style>inline</input_style>
+        <input_type>source_field</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Sys ID</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>sys_id</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:35</sys_created_on>
+        <sys_id>402f3822476711109a45dac8536d437d</sys_id>
+        <sys_name>Sys ID</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_402f3822476711109a45dac8536d437d</sys_update_name>
+        <table_name>x_950986_work_hub_equipment</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=402f3822476711109a45dac8536d437d"/>
+</record_update>]]></payload>
+        <payload_hash>-1412625913</payload_hash>
+        <record_name>Sys ID</record_name>
+        <reverted_from/>
+        <source>57df646947fb11109a45dac8536d4317</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-15 21:11:58</sys_created_on>
+        <sys_id>fc6038e947fb11109a45dac8536d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18517a1342c0000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-15 21:11:58</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>3c6038e933fb1110e99b3799c2ab1d72</update_guid>
+        <update_guid_history>3c6038e933fb1110e99b3799c2ab1d72:0,592fb822c7671110469b2e2f6c20f272:1252179087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-17 09:54:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>58e7eccef9ff43fb964a7640bf2a6161</sys_id>
+        <sys_metadata>402f3822476711109a45dac8536d437d</sys_metadata>
+        <sys_name>Sys ID</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_402f3822476711109a45dac8536d437d</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_402f3822476711109a45dac8536d437d">fc6038e947fb11109a45dac8536d4372</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

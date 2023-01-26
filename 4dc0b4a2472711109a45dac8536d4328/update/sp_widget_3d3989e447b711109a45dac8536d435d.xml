@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);&#13;
+* {&#13;
+  box-sizing: border-box;&#13;
+}&#13;
+&#13;
+body {&#13;
+  height: 100vh;&#13;
+  font-family: 'Open Sans', sans-serif;&#13;
+  margin: 2rem 0;&#13;
+}&#13;
+&#13;
+a {&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+h1 {&#13;
+  font-family: 'Open Sans', sans-serif;&#13;
+  font-weight: 300;&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+/* header-end */&#13;
+&#13;
+.header {&#13;
+margin: 3rem 0 2rem 0;&#13;
+display: flex;&#13;
+justify-content: center;&#13;
+&#13;
+&#13;
+}&#13;
+h3 {&#13;
+  font-family: "Montserrat";&#13;
+  color: #0177BF;&#13;
+  font-weight: 400;&#13;
+  &#13;
+}&#13;
+&#13;
+.grid {&#13;
+  display: grid;&#13;
+  margin: 2rem 2rem 0 2rem;&#13;
+  gap: 1rem;&#13;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));&#13;
+}&#13;
+.grid-item {&#13;
+  background-color: #fff;&#13;
+  cursor: pointer;&#13;
+  transition: 0.2s;&#13;
+  margin-bottom: 1.5rem;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.room {&#13;
+  float: left;&#13;
+  padding: 2rem 1rem 0rem;&#13;
+  width: 100%;&#13;
+  border-radius: 10px;&#13;
+  border: 5px solid rgba(0, 0, 0, 0.12);&#13;
+&#13;
+}&#13;
+&#13;
+.image {&#13;
+  width: 80px;&#13;
+  border: 1px solid #f2f2f2;&#13;
+  border-radius: 40px;&#13;
+}&#13;
+&#13;
+.title {&#13;
+    font-size: 17px;&#13;
+    font-weight: 300;&#13;
+    &#13;
+    padding: 5px 10px;&#13;
+    &#13;
+    &#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>work_hub_members</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Work Hub Team Members</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 20:30:04</sys_created_on>
+        <sys_id>3d3989e447b711109a45dac8536d435d</sys_id>
+        <sys_name>Work Hub Team Members</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_widget_3d3989e447b711109a45dac8536d435d</sys_update_name>
+        <template><![CDATA[ <div class="header">
+   <h3>Contact Work Hub Team Members </h3>
+</div>
+<div class="grid">
+ 
+          <div class="grid-item">
+            <div class="image-1 room">
+              <div class="wrapper">
+                <div class="data">
+                  <div class="content">
+                    <img class="image" src="https://i.pravatar.cc/300"/>               
+                    <h5 class="title">
+                        Kim Lindgren
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="image-2 room">
+              <div class="wrapper">
+                <div class="data">
+                    <div class="content">
+                        <img class="image" src="x_950986_work_hub.monika.png" />            
+                        <h5 class="title">
+                            Monika Lythell
+                        </h5>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="image-2 room">
+              <div class="wrapper">
+                <div class="data">
+                    <div class="content">
+                         <img class="image" src="x_950986_work_hub.darmin.png"/>                  
+                        <h5 class="title">
+                            John Doe
+                        </h5>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="image-3 room">
+              <div class="wrapper">
+                <div class="data">
+                    <div class="content">
+                        <img class="image" src="x_950986_work_hub.nelman.png" />                 
+                        <h5 class="title">
+                          Nelman Ranasinghe
+                        </h5>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>]]></template>
+    </sp_widget>
+</record_update>

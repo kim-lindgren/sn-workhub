@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Opening hours string data</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_950986_work_hub_opening_hours_string_data</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-14 21:59:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d0b13879710211084411400f153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opening hours string data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_app_module_8d0b13879710211084411400f153aff2</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2023-01-14 21:59:45</sys_updated_on>
+        <timeline_page/>
+        <title>Opening hours string data</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_app_module_8d0b13879710211084411400f153aff2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Opening hours string data</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_950986_work_hub_opening_hours_string_data</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2023-01-14 21:59:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8d0b13879710211084411400f153aff2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Opening hours string data</sys_name><sys_overrides/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sys_app_module_8d0b13879710211084411400f153aff2</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2023-01-14 21:59:45</sys_updated_on><timeline_page/><title>Opening hours string data</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-589857208</payload_hash>
+        <record_name>Opening hours string data</record_name>
+        <reverted_from/>
+        <source>722a6ab2472b11109a45dac8536d43a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-14 21:59:45</sys_created_on>
+        <sys_id>4d0b13879710211084411400f153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185b24bb9d80000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2023-01-14 21:59:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>850b1387fc1021104252e5616c404ef5</update_guid>
+        <update_guid_history>850b1387fc1021104252e5616c404ef5:-589857208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Opening hours string data">8515f22f9798611084411400f153af18</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-16 08:30:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5dd958434b8f40ceb1b549ddfe9083c1</sys_id>
+        <sys_metadata>8d0b13879710211084411400f153aff2</sys_metadata>
+        <sys_name>Opening hours string data</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_app_module_8d0b13879710211084411400f153aff2</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8d0b13879710211084411400f153aff2">4d0b13879710211084411400f153aff5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">171f7422476711109a45dac8536d43aa</embedded_screen>
+        <form display_value="Room Form Screen">5b1f7422476711109a45dac8536d43a8</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:32</sys_created_on>
+        <sys_id>db1f7422476711109a45dac8536d43c9</sys_id>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_form_segment_db1f7422476711109a45dac8536d43c9</sys_update_name>
+    </sys_sg_form_segment>
+</record_update>

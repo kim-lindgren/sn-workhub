@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Book a room">19198f0b472711109a45dac8536d43bd</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 13:56:41</sys_created_on>
+        <sys_id>d0a9c74b472711109a45dac8536d43cb</sys_id>
+        <sys_name>Book a room.catalog_book_a_room</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_book_a_room">54a9c74b472711109a45dac8536d43c9</sys_portal_page>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_d0a9c74b472711109a45dac8536d43cb</sys_update_name>
+    </sc_catalog_view_mtom>
+</record_update>

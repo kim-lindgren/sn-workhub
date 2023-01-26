@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Work Hub Rooms">2800c013472b11109a45dac8536d4354</sc_category>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">69163ed347a351109a45dac8536d43f0</sp_column>
+        <sp_page display_value="workhub_conference">254c264f47a311109a45dac8536d436c</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-09 07:10:02</sys_created_on>
+        <sys_id>41263a1747a351109a45dac8536d4389</sys_id>
+        <sys_name>Conference room</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_link_41263a1747a351109a45dac8536d4389</sys_update_name>
+        <title>Conference room</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=41263a1747a351109a45dac8536d4389"/>
+</record_update>

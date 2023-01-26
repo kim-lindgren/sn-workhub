@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0a2550f847b311109a45dac8536d4388" label="Configuration items" max_length="40" name="x_950986_work_hub_configuration_items" type="collection">
+        <element label="Image" max_length="65536" name="image" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Item Category" max_length="40" name="item_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" value="hardware"/>
+                <element inactive_on_update="false" label="Kitchenware" value="kitchenware"/>
+                <element inactive_on_update="false" label="Vendor" value="vendor"/>
+                <element inactive_on_update="false" label="Coffee machine" sequence="0" value="Coffee machine"/>
+                <element inactive_on_update="false" label="Dishwasher" sequence="0" value="Dishwasher"/>
+                <element inactive_on_update="false" label="Microwave oven" sequence="0" value="Microwave oven"/>
+                <element inactive_on_update="false" label="Monitor" sequence="0" value="Monitor"/>
+                <element inactive_on_update="false" label="Refrigerator" sequence="0" value="Refrigerator"/>
+                <element inactive_on_update="false" label="Sound system" sequence="0" value="Sound system"/>
+                <element inactive_on_update="false" label="Stationary computer" sequence="0" value="Stationary computer"/>
+                <element inactive_on_update="false" label="Vending machine" sequence="0" value="Vending machine"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Item Name" max_length="40" name="item_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="x_950986_work_hub_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

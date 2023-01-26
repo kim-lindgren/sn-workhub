@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5573613e47e311109a45dac8536d436f</sp_column>
+        <sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 15:51:02</sys_created_on>
+        <sys_id>c3c3ab0747a711109a45dac8536d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_c3c3ab0747a711109a45dac8536d436c</sys_update_name>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-08 15:51:02</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c3c3ab0747a711109a45dac8536d436c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_instance_c3c3ab0747a711109a45dac8536d436c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">5573613e47e311109a45dac8536d436f</sp_column><sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>monika.lythell</sys_created_by><sys_created_on>2022-12-08 15:51:02</sys_created_on><sys_id>c3c3ab0747a711109a45dac8536d436c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sp_instance_c3c3ab0747a711109a45dac8536d436c</sys_update_name><sys_updated_by>monika.lythell</sys_updated_by><sys_updated_on>2022-12-08 15:51:02</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=c3c3ab0747a711109a45dac8536d436c"/></record_update>]]></payload>
+        <payload_hash>942633122</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a85b0fb247ab11109a45dac8536d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 15:51:02</sys_created_on>
+        <sys_id>93c3ab0747a711109a45dac8536d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f26edbef0000001</sys_recorded_at>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-08 15:51:02</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>dbc3ab0709a71110c019ae709b00b06d</update_guid>
+        <update_guid_history>dbc3ab0709a71110c019ae709b00b06d:942633122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cde32f0747a711109a45dac8536d434e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 15:51:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>6a9062fdf9014818802aabe556d9f2a9</sys_id>
+        <sys_metadata>c3c3ab0747a711109a45dac8536d436c</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_instance_c3c3ab0747a711109a45dac8536d436c</sys_update_name>
+        <sys_update_version display_value="sp_instance_c3c3ab0747a711109a45dac8536d436c">93c3ab0747a711109a45dac8536d436e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

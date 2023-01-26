@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Workhub_Room2 - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="workhub_room2">be0ce24f47a311109a45dac8536d431e</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 12:04:21</sys_created_on>
+        <sys_id>feefa64347e311109a45dac8536d4382</sys_id>
+        <sys_name>Workhub_Room2 - Container 3</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_container_feefa64347e311109a45dac8536d4382</sys_update_name>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

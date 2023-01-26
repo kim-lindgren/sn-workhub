@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5573613e47e311109a45dac8536d436f</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-07 11:51:55</sys_created_on>
+        <sys_id>727329fa47e311109a45dac8536d43e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_727329fa47e311109a45dac8536d43e8</sys_update_name>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-08 15:51:26</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev138291.service-now.com/sp?id=sn_user_registration&sys_id=5b79017247a311109a45dac8536d43a8&",
+		"displayValue": "https://dev138291.service-now.com/sp?id=sn_user_registration&sys_id=5b79017247a311109a45dac8536d43a8&"
+	},
+	"button_text": {
+		"value": "Book Now",
+		"displayValue": "Book Now"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=727329fa47e311109a45dac8536d43e8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_instance_727329fa47e311109a45dac8536d43e8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;5573613e47e311109a45dac8536d436f&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kim.lindgren&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-07 11:51:55&lt;/sys_created_on&gt;&lt;sys_id&gt;727329fa47e311109a45dac8536d43e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_727329fa47e311109a45dac8536d43e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;monika.lythell&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-08 15:51:26&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev138291.service-now.com/sp?id=sn_user_registration&amp;sys_id=5b79017247a311109a45dac8536d43a8&amp;",
+		"displayValue": "https://dev138291.service-now.com/sp?id=sn_user_registration&amp;sys_id=5b79017247a311109a45dac8536d43a8&amp;"
+	},
+	"button_text": {
+		"value": "Book Now",
+		"displayValue": "Book Now"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=727329fa47e311109a45dac8536d43e8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-685944970</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a85b0fb247ab11109a45dac8536d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 15:51:26</sys_created_on>
+        <sys_id>41e32f0747a711109a45dac8536d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184f26f39e90000001</sys_recorded_at>
+        <sys_updated_by>monika.lythell</sys_updated_by>
+        <sys_updated_on>2022-12-08 15:51:26</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>49e32f07e9a711104592c0ecd7c83f58</update_guid>
+        <update_guid_history>49e32f07e9a711104592c0ecd7c83f58:-685944970,abc3ab07bda71110a88510801b0fb7b5:-2119567881,afb8c6b2b1a71110df8ce76ef99ac50a:-685944970,7049fd32c9671110edc7bb75e72e8a99:202497142,ed577dbeb027111033468a3ebb702c9a:-921056714,5ea4657eb3e311107416afd9528f0312:202497142,8f93a13e53e31110e77ec776d7637c2c:1955316110,3e7329fa42e3111001e4ab01bb7cabe9:-913471896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9e6e6edb476351109a45dac8536d43db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-09 06:36:15</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>18f418f5f8254640812baa8f297ac010</sys_id>
+        <sys_metadata>727329fa47e311109a45dac8536d43e8</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_instance_727329fa47e311109a45dac8536d43e8</sys_update_name>
+        <sys_update_version display_value="sp_instance_727329fa47e311109a45dac8536d43e8">41e32f0747a711109a45dac8536d4359</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

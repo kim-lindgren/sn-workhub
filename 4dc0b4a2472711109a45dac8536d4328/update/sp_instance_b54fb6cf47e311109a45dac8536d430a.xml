@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d03f3a4f47e311109a45dac8536d4317</sp_column>
+        <sp_widget display_value="Workplace Text Widget">2c87717a5b3c9010a0c80cd33381c722</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 13:11:28</sys_created_on>
+        <sys_id>b54fb6cf47e311109a45dac8536d430a</sys_id>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_b54fb6cf47e311109a45dac8536d430a</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"text": {
+		"value": "TEST",
+		"displayValue": "TEST"
+	},
+	"classes_to_add": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b54fb6cf47e311109a45dac8536d430a"/>
+</record_update>

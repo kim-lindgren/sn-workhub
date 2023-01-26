@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Booking Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Booking Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a67056e4f90211108c8bd16244dfe708</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-15 21:11:03</sys_created_on>
+        <sys_id>172070a947fb11109a45dac8536d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Request</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_wizard_answer_172070a947fb11109a45dac8536d43f4</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-15 21:11:03</sys_updated_on>
+        <table/>
+        <target_url>x_950986_work_hub_booking_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_wizard_answer_172070a947fb11109a45dac8536d43f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Booking Request</answer><button_label/><dependent_value/><element/><name>Booking Request</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">a67056e4f90211108c8bd16244dfe708</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-15 21:11:03</sys_created_on><sys_id>172070a947fb11109a45dac8536d43f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Booking Request</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sys_wizard_answer_172070a947fb11109a45dac8536d43f4</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-15 21:11:03</sys_updated_on><table/><target_url>x_950986_work_hub_booking_request.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>108674865</payload_hash>
+        <record_name>Booking Request</record_name>
+        <reverted_from/>
+        <source>48e328d1472311109a45dac8536d43f8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-12-02 15:23:07</sys_created_on>
+        <sys_id>26880627477311109a45dac8536d43f5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184d36f23780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>e2880627d47311105a195192c30c03f5</update_guid>
+        <update_guid_history>e2880627d47311105a195192c30c03f5:108674865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-22 08:44:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4d7be1488a4343429202d20748894984</sys_id>
+        <sys_metadata>172070a947fb11109a45dac8536d43f4</sys_metadata>
+        <sys_name>Booking Request</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent display_value="Task">a67056e4f90211108c8bd16244dfe708</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_172070a947fb11109a45dac8536d43f4</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_172070a947fb11109a45dac8536d43f4">26880627477311109a45dac8536d43f5</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_delivery_plan">
+    <sc_cat_item_delivery_plan action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <calendar/>
+        <condition/>
+        <name>Booking Request</name>
+        <order>100</order>
+        <parent_table>x_950986_work_hub_booking_request</parent_table>
+        <script/>
+        <short_description/>
+        <sys_class_name>sc_cat_item_delivery_plan</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-11 10:26:19</sys_created_on>
+        <sys_id>aa83350047fbd1109a45dac8536d43d5</sys_id>
+        <sys_name>Booking Request</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_cat_item_delivery_plan_aa83350047fbd1109a45dac8536d43d5</sys_update_name>
+        <task_table>x_950986_work_hub_booking_request</task_table>
+        <total_delivery_time/>
+    </sc_cat_item_delivery_plan>
+</record_update>

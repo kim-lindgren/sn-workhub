@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>end_time</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Duration</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var startTime = g_form.getValue('start_time')
+   var endTime = g_form.getValue('end_time')
+   
+   g_form.addInfoMessage('Start time: ' + startTime + ' and end time: ' + endTime)
+   
+   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-08 10:11:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b214dac3476311109a45dac8536d436e</sys_id>
+        <sys_name>Set Duration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_script_client_b214dac3476311109a45dac8536d436e</sys_update_name>
+        <table>x_950986_work_hub_booking</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_script_client_b214dac3476311109a45dac8536d436e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field&gt;end_time&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Set Duration&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var startTime = g_form.getValue('start_time')
+   var endTime = g_form.getValue('end_time')
+   
+   g_form.addInfoMessage('Start time: ' + startTime + ' and end time: ' + endTime)
+   
+   
+   
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;kim.lindgren&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-08 10:11:26&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;b214dac3476311109a45dac8536d436e&lt;/sys_id&gt;
+        &lt;sys_name&gt;Set Duration&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_b214dac3476311109a45dac8536d436e&lt;/sys_update_name&gt;
+        &lt;table&gt;x_950986_work_hub_booking&lt;/table&gt;
+        &lt;type&gt;onChange&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>189312829</payload_hash>
+        <record_name>Set Duration</record_name>
+        <reverted_from/>
+        <source>57df646947fb11109a45dac8536d4317</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-15 21:11:43</sys_created_on>
+        <sys_id>cd50b0e947fb11109a45dac8536d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18517a0f7b00000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-15 21:11:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0d50b0e9cafb11101b8610306c68254c</update_guid>
+        <update_guid_history>0d50b0e9cafb11101b8610306c68254c:0,e2ba924bf56311102d1333db4654461d:965888731,6c16564789631110276ef2440a44fb3e:571438216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-22 07:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>584c2192172f41f48914895e448d5c90</sys_id>
+        <sys_metadata>b214dac3476311109a45dac8536d436e</sys_metadata>
+        <sys_name>Set Duration</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent display_value="Booking">65dc7c6e472711109a45dac8536d43b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_script_client_b214dac3476311109a45dac8536d436e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b214dac3476311109a45dac8536d436e">cd50b0e947fb11109a45dac8536d434c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

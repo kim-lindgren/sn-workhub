@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Booking)">fb1ff422476711109a45dac8536d4386</button>
+        <item_parameter display_value="Booking number">3f1ff422476711109a45dac8536d4369</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:34:34</sys_created_on>
+        <sys_id>731ff422476711109a45dac8536d43c6</sys_id>
+        <sys_name>3f1ff422476711109a45dac8536d4369</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_731ff422476711109a45dac8536d43c6</sys_update_name>
+        <ui_parameter display_value="Number">3f1ff422476711109a45dac8536d438b</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

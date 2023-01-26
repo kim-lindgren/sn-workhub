@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">539bbf98477311109a45dac8536d431f</sp_column>
+        <sp_widget display_value="Work Hub Bookings">76c9f718477311109a45dac8536d4352</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 14:47:42</sys_created_on>
+        <sys_id>b6abff98477311109a45dac8536d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_b6abff98477311109a45dac8536d433c</sys_update_name>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-12 14:47:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b6abff98477311109a45dac8536d433c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_instance_b6abff98477311109a45dac8536d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">539bbf98477311109a45dac8536d431f</sp_column><sp_widget display_value="Work Hub Bookings">76c9f718477311109a45dac8536d4352</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>nelman.ranasinghe</sys_created_by><sys_created_on>2022-12-12 14:47:42</sys_created_on><sys_id>b6abff98477311109a45dac8536d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sp_instance_b6abff98477311109a45dac8536d433c</sys_update_name><sys_updated_by>nelman.ranasinghe</sys_updated_by><sys_updated_on>2022-12-12 14:47:42</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=b6abff98477311109a45dac8536d433c"/></record_update>]]></payload>
+        <payload_hash>1124800279</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>04092b8b47a711109a45dac8536d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 14:47:43</sys_created_on>
+        <sys_id>baabff98477311109a45dac8536d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18506ce534b0000001</sys_recorded_at>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-12 14:47:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>f2abff988073111062090d3738c6913e</update_guid>
+        <update_guid_history>f2abff988073111062090d3738c6913e:1124800279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">726cac2c473711109a45dac8536d4312</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 18:20:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>54de88cf5f2641049f616eeb5f0e3a90</sys_id>
+        <sys_metadata>b6abff98477311109a45dac8536d433c</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_instance_b6abff98477311109a45dac8536d433c</sys_update_name>
+        <sys_update_version display_value="sp_instance_b6abff98477311109a45dac8536d433c">baabff98477311109a45dac8536d433e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

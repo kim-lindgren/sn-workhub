@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e18235a6476b11109a45dac8536d4321</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-06 18:34:56</sys_created_on>
+        <sys_id>7826f1aa476b11109a45dac8536d435b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_instance_7826f1aa476b11109a45dac8536d435b</sys_update_name>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-06 19:37:02</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=7826f1aa476b11109a45dac8536d435b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sp_instance_7826f1aa476b11109a45dac8536d435b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;e18235a6476b11109a45dac8536d4321&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nelman.ranasinghe&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-06 18:34:56&lt;/sys_created_on&gt;&lt;sys_id&gt;7826f1aa476b11109a45dac8536d435b&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_7826f1aa476b11109a45dac8536d435b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nelman.ranasinghe&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-06 19:37:02&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7826f1aa476b11109a45dac8536d435b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1610140005</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8dc0b4a2472711109a45dac8536d432a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-06 19:37:02</sys_created_on>
+        <sys_id>d2544e2a47ab11109a45dac8536d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184e8f10d0c0000001</sys_recorded_at>
+        <sys_updated_by>nelman.ranasinghe</sys_updated_by>
+        <sys_updated_on>2022-12-06 19:37:02</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>1e544e2a74ab111026ea5377a201ac1f</update_guid>
+        <update_guid_history>1e544e2a74ab111026ea5377a201ac1f:1610140005,5b240a2a02ab1110d106fdcb8a64fb54:-1557101509,4af3c62aeeab111063cf1a3f1413fa72:1350314441,ddf10eea846b11101425961dfe29bc97:1295897439,3c99f56ea86b1110f5c9245495f23b07:-853715924,0489fdae806b111037a2cfa41aad0d19:-1341540737,6b59fd2e636b11102a11d95fe755997e:133580083,fb393d6e3a6b1110b9d0195d3b9a06a3:-970577437,7a287d6e466b11109cd8e15728790765:302955727,f426f1aa7b6b111030fc15b2ec2d8f5d:-807004533</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">085795be47a311109a45dac8536d430e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-07 10:58:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>675d186b1efc41549f6d378b1b2d7741</sys_id>
+        <sys_metadata>7826f1aa476b11109a45dac8536d435b</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sp_instance_7826f1aa476b11109a45dac8536d435b</sys_update_name>
+        <sys_update_version display_value="sp_instance_7826f1aa476b11109a45dac8536d435b">d2544e2a47ab11109a45dac8536d4320</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

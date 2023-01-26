@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Work Hub Bookable Rooms">488bc7cb472711109a45dac8536d433e</sc_catalog>
+        <sp_portal display_value="Work Hub">84c6516e47e711109a45dac8536d43ea</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>monika.lythell</sys_created_by>
+        <sys_created_on>2022-12-08 21:02:30</sys_created_on>
+        <sys_id>b51b601347ab11109a45dac8536d43ec</sys_id>
+        <sys_name>Work Hub Bookable Rooms.Work Hub</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_b51b601347ab11109a45dac8536d43ec</sys_update_name>
+    </m2m_sp_portal_catalog>
+</record_update>

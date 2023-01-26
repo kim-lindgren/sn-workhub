@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:24:40</sys_created_on>
+        <sys_id>fadcfc6e472711109a45dac8536d431f</sys_id>
+        <sys_name>x_950986_work_hub_booking.x_950986_work_hub.customer</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_security_acl display_value="x_950986_work_hub_booking">b6dcfc6e472711109a45dac8536d431d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fadcfc6e472711109a45dac8536d431f</sys_update_name>
+        <sys_user_role display_value="x_950986_work_hub.customer" name="x_950986_work_hub.customer">6cf1f8a2472711109a45dac8536d4303</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

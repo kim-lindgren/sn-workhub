@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Small Room (1-2 persons)">08ab8bcb472711109a45dac8536d43db</sc_cat_item>
+        <sc_category display_value="Work Hub Rooms">2800c013472b11109a45dac8536d4354</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-11 12:27:29</sys_created_on>
+        <sys_id>76f11e4c473fd1109a45dac8536d43d1</sys_id>
+        <sys_name>Work Hub Rooms.Small Room (1-2 persons)</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_cat_item_category_76f11e4c473fd1109a45dac8536d43d1</sys_update_name>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sc_cat_item_category_76f11e4c473fd1109a45dac8536d43d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Small Room (1-2 persons)">08ab8bcb472711109a45dac8536d43db</sc_cat_item>
+        <sc_category display_value="Work Hub Rooms">2800c013472b11109a45dac8536d4354</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-11 12:27:29</sys_created_on>
+        <sys_id>76f11e4c473fd1109a45dac8536d43d1</sys_id>
+        <sys_name>Work Hub Rooms.Small Room (1-2 persons)</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_cat_item_category_76f11e4c473fd1109a45dac8536d43d1</sys_update_name>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>1305996959</payload_hash>
+        <record_name>Work Hub Rooms.Small Room (1-2 persons)</record_name>
+        <reverted_from/>
+        <source>57df646947fb11109a45dac8536d4317</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-15 21:11:30</sys_created_on>
+        <sys_id>ca403ca947fb11109a45dac8536d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18517a0c7780000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-15 21:11:30</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>0a403ca9f4fb1110bca7a3007dbe2c65</update_guid>
+        <update_guid_history>0a403ca9f4fb1110bca7a3007dbe2c65:0,7ef11e4c2d3fd1104121a9a80af3b0d3:-488320937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Work Hub Rooms.Small Room (1-2 persons)">5b0f08ac97e8251084411400f153af7f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-18 22:59:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>40d89c3198f14c569f61df0762289aa4</sys_id>
+        <sys_metadata>76f11e4c473fd1109a45dac8536d43d1</sys_metadata>
+        <sys_name>Work Hub Rooms.Small Room (1-2 persons)</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_76f11e4c473fd1109a45dac8536d43d1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_76f11e4c473fd1109a45dac8536d43d1">ca403ca947fb11109a45dac8536d4365</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

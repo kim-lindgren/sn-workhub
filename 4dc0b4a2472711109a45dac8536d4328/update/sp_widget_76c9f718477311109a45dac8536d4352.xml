@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&amp;display=swap');&#13;
+* {&#13;
+  box-sizing: border-box;&#13;
+  font-family: 'Montserrat', sans-serif;&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+#table {&#13;
+  font-family: Montserrat, sans-serif;&#13;
+  border-collapse: collapse;&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+#table td, #table th {&#13;
+  border: 1px solid #ddd;&#13;
+  padding: 8px;&#13;
+}&#13;
+&#13;
+#table tr:nth-child(even){background-color: #f2f2f2;}&#13;
+&#13;
+#table tr:hover {background-color: #ddd;}&#13;
+&#13;
+#table th {&#13;
+  padding-top: 12px;&#13;
+  padding-bottom: 12px;&#13;
+  text-align: left;&#13;
+  background-color: #32DBBE;&#13;
+  color: white;&#13;
+}&#13;
+&#13;
+.header {&#13;
+margin: 3rem 0 2rem 0;&#13;
+display: flex;&#13;
+justify-content: center;&#13;
+&#13;
+&#13;
+}&#13;
+h3 {&#13;
+  font-family: "Montserrat";&#13;
+  color: #0177BF;&#13;
+  font-weight: 400;&#13;
+  &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>work_hub_booking</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Work Hub Bookings</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+    data.Req =[];
+    var grReq = new GlideRecord('task');
+    grReq.addEncodedQuery('requested_by='+gs.getUserID());
+    grReq.query();
+    while(grReq.next()){
+        var json ={};
+        json.first_name = grReq.first_name.toString();
+		//json.urgency = grBok.urgency.toString();
+//json.short_description = grBok.short_description.toString();
+//json.assignment_group = grBok.getDisplayValue('assignment_group');
+      data.Req.push(json);
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-12 14:39:31</sys_created_on>
+        <sys_id>76c9f718477311109a45dac8536d4352</sys_id>
+        <sys_name>Work Hub Bookings</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_widget_76c9f718477311109a45dac8536d4352</sys_update_name>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div class="header">
+  	<h3>Work Hub Booking Details</h3>
+  </div>
+  
+ <!-- <table id="table">
+    <tr>
+      <th>Name</th>
+      <th>short Description</th>
+      
+      <th>Room</th>
+    </tr>
+    <tr ng-repeat="key in data.Req">
+    <td>{{key.first_name}}</td>
+   
+      
+    </tr>
+    
+  </table> -->
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Work Hub User Registration">5b79017247a311109a45dac8536d43a8</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-07 09:58:22</sys_created_on>
+        <sys_id>9b79017247a311109a45dac8536d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work Hub User Registration.SNC External</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_9b79017247a311109a45dac8536d43ad</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-07 17:00:24</sys_updated_on>
+        <user_criteria display_value="">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_9b79017247a311109a45dac8536d43ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Work Hub User Registration">5b79017247a311109a45dac8536d43a8</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-07 09:58:22</sys_created_on><sys_id>9b79017247a311109a45dac8536d43ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Work Hub User Registration.SNC External</sys_name><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_9b79017247a311109a45dac8536d43ad</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-07 17:00:24</sys_updated_on><user_criteria display_value="">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1437971199</payload_hash>
+        <record_name>Work Hub User Registration.SNC External</record_name>
+        <reverted_from/>
+        <source>48e328d1472311109a45dac8536d43f8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-12-02 15:23:07</sys_created_on>
+        <sys_id>8c064478477311109a45dac8536d436e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184d36f23780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>4c064478d7731110c0a225d5b99b2d6e</update_guid>
+        <update_guid_history>4c064478d7731110c0a225d5b99b2d6e:1437971199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Work Hub User Registration.SNC External">40064478477311109a45dac8536d4371</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-13 10:11:20</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>11ffab3d34814220814c3199f32dcb59</sys_id>
+        <sys_metadata>9b79017247a311109a45dac8536d43ad</sys_metadata>
+        <sys_name>Work Hub User Registration.SNC External</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_9b79017247a311109a45dac8536d43ad</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_9b79017247a311109a45dac8536d43ad">8c064478477311109a45dac8536d436e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

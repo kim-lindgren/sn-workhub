@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+	//if(g_user.hasRole('x_950986_work_hub.customer')){
+//showRegBtn =false;
+//
+
+
+// if (c.x_950986_work_hub.customer == "") {
+ //   "x_950986_work_hub.customer"
+   // showRegBtn = false;
+//} else {
+ //   showRegBtn = true;
+//}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* &#13;
+header */&#13;
+&#13;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&amp;display=swap');&#13;
+* {&#13;
+  box-sizing: border-box;&#13;
+  font-family: 'Montserrat', sans-serif;&#13;
+}&#13;
+&#13;
+.hero .hero-wrapper {&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.hero {&#13;
+  background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1184&amp;q=80');&#13;
+  background-size: cover;&#13;
+  background-repeat: no-repeat;&#13;
+  background-position: 50% 50%;&#13;
+}&#13;
+.hero .hero-wrapper {&#13;
+  padding: 10% 0%;&#13;
+  background-color: rgba(1, 119, 191, 0.3);&#13;
+}&#13;
+.hero .hero-wrapper h1 {&#13;
+  font-weight: 300;&#13;
+  color: white;&#13;
+  letter-spacing: 0.25em;&#13;
+  text-transform: uppercase;&#13;
+  border: 2px solid #32DBBE;&#13;
+  display: inline-block;&#13;
+  padding: 10px;&#13;
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.12);&#13;
+  position: relative;&#13;
+  z-index: 1;&#13;
+}&#13;
+&#13;
+.register {&#13;
+  background:#32DBBE;&#13;
+  padding: .7rem 2.5rem;&#13;
+  font-size: 12px;&#13;
+  color: white;&#13;
+  border: 1px solid #ffffff;&#13;
+  border-radius: 40px;&#13;
+  margin-top: 1rem;&#13;
+  &#13;
+  &#13;
+}&#13;
+&#13;
+/* header-end */&#13;
+&#13;
+.welcome {&#13;
+ margin-top: 3rem;&#13;
+color: white;&#13;
+  padding: 10px 30px 10px 15px;&#13;
+  /*background: #32DBBE;*/&#13;
+  display: inline-block;&#13;
+  font-size: 26px;&#13;
+  font-family: cursive;&#13;
+  &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>header section</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>x_950986_work_hub.customer,x_950986_work_hub.maintenance,admin</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+    
+    
+    var usr = gs.getUserID(); // sys_id
+    var grusr = new GlideRecord('sys_user');
+    if(grusr.get(usr)){
+        data.fname = grusr.getValue('first_name');
+		data.lname = grusr.getValue('last_name');
+        
+        var grtask = new GlideRecord('task');
+        grtask.addEncodedQuery('opened_by='+grusr.getValue('sys_id'));
+        grtask.orderByDesc('sys_created_on');
+        grtask.query();
+        if(grtask.next()){
+            data.task = grtask.getValue('number');
+        }
+        
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nelman.ranasinghe</sys_created_by>
+        <sys_created_on>2022-12-07 10:55:01</sys_created_on>
+        <sys_id>91c5517e47a311109a45dac8536d43a3</sys_id>
+        <sys_name>header section</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sp_widget_91c5517e47a311109a45dac8536d43a3</sys_update_name>
+        <template><![CDATA[<div class="hero"> 
+      <div class="hero-wrapper" layout="row" layout-align="center center">
+        
+        <div layout="column">
+          <div><h5 class="welcome"> Hello {{data.fname}}!</h5></div>
+          <!-- <div><h6 class="welcome"> Hello {{data.fname}} {{data.lname}}, Last incident oppend by {{data.task}}</h6></div> -->
+          
+          <h1 class="md-display-3">WORK HUB SWEDEN</h1>      
+        </div>
+        <div layout="column">  
+         
+           
+         
+          
+           <a href="https://dev138291.service-now.com/workhub?id=sc_category&sys_id=2800c013472b11109a45dac8536d4354" target="_blank">
+           <button class="register" type="button">BOOK A ROOM</button>
+          </a>
+          
+           <!-- <a href="https://dev138291.service-now.com/workhub?id=sc_cat_item&sys_id=3f1dd0320a0a0b99000a53f7604a2ef9&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f" target="_blank">
+           <button class="register" type="button">REPORT A INCIDENT</button>
+          </a> -->
+          
+          
+         
+        </div>
+      </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a4b672449728e11084411400f153affb" extends="sys_import_set_row" label="Time slot data 3" max_length="40" name="x_950986_work_hub_time_slot_data_3" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Five minutes" label="Five minutes" max_length="40" name="u_five_minutes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Full hour" label="Full hour" max_length="40" name="u_full_hour" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Half hour" label="Half hour" max_length="40" name="u_half_hour" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Quarter hour" label="Quarter hour" max_length="40" name="u_quarter_hour" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ten minutes" label="Ten minutes" max_length="40" name="u_ten_minutes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time" label="Time" max_length="40" name="u_time" type="string"/>
+    </element>
+</database>

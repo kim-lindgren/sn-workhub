@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Booking Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_950986_work_hub_booking_request</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_950986_work_hub.booking_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-11 10:13:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9643fdcc47bbd1109a45dac8536d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_app_module_9643fdcc47bbd1109a45dac8536d437e</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-12 16:50:23</sys_updated_on>
+        <timeline_page/>
+        <title>Booking Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_app_module_9643fdcc47bbd1109a45dac8536d437e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Booking Requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_950986_work_hub_booking_request</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_950986_work_hub.booking_request_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>kim.lindgren</sys_created_by><sys_created_on>2022-12-11 10:13:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9643fdcc47bbd1109a45dac8536d437e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Booking Requests</sys_name><sys_overrides/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sys_app_module_9643fdcc47bbd1109a45dac8536d437e</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2022-12-12 16:50:23</sys_updated_on><timeline_page/><title>Booking Requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1149376428</payload_hash>
+        <record_name>Booking Requests</record_name>
+        <reverted_from/>
+        <source>722a6ab2472b11109a45dac8536d43a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-22 08:44:24</sys_created_on>
+        <sys_id>d6684227477311109a45dac8536d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18539014d270000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2022-12-22 08:44:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1668422792731110d7316073aa7184a7</update_guid>
+        <update_guid_history>1668422792731110d7316073aa7184a7:0,fb40fca918fb111068a2aa6ab19225f9:0,5243fdcc85bbd1104bdae445ce9d6081:481416862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Booking Requests">8a880627477311109a45dac8536d4383</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2022-12-22 08:44:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1a305a90680e4e4682ef3d0270d0f4e4</sys_id>
+        <sys_metadata>9643fdcc47bbd1109a45dac8536d437e</sys_metadata>
+        <sys_name>Booking Requests</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_app_module_9643fdcc47bbd1109a45dac8536d437e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9643fdcc47bbd1109a45dac8536d437e">d6684227477311109a45dac8536d43a7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Work Hub ">e8debcae472711109a45dac8536d43d6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Equipment</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_950986_work_hub_configuration_items</name>
+        <order>7</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 14:33:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0de7022476711109a45dac8536d432d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Equipment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_app_module_a0de7022476711109a45dac8536d432d</sys_update_name>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2023-01-17 21:04:35</sys_updated_on>
+        <timeline_page/>
+        <title>Equipment</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Equipment</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_app_module_a0de7022476711109a45dac8536d432d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Work Hub ">e8debcae472711109a45dac8536d43d6</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Equipment</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_950986_work_hub_configuration_items</name><order>7</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-06 14:33:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a0de7022476711109a45dac8536d432d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Equipment</sys_name><sys_overrides/><sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package><sys_policy/><sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope><sys_update_name>sys_app_module_a0de7022476711109a45dac8536d432d</sys_update_name><sys_updated_by>kim.lindgren</sys_updated_by><sys_updated_on>2023-01-17 21:04:35</sys_updated_on><timeline_page/><title>Equipment</title><uncancelable>false</uncancelable><view_name>Equipment</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-207383132</payload_hash>
+        <record_name>Equipment</record_name>
+        <reverted_from/>
+        <source>722a6ab2472b11109a45dac8536d43a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-17 21:04:35</sys_created_on>
+        <sys_id>162ba24897e4e11084411400f153af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185c18c4aee0000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2023-01-17 21:04:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5e2ba24811e4e1104808c746d6ab8462</update_guid>
+        <update_guid_history>5e2ba24811e4e1104808c746d6ab8462:-207383132,3740fca975fb11108fa0adbf3231dafd:0,e4de702210671110eafd33a8a854db2e:-779073893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Equipment">ef5be64897e4e11084411400f153af04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-17 21:05:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5f0415640f7144a0b5d6a8af37f3c100</sys_id>
+        <sys_metadata>a0de7022476711109a45dac8536d432d</sys_metadata>
+        <sys_name>x_950986_work_hub_configuration_items</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_app_module_a0de7022476711109a45dac8536d432d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a0de7022476711109a45dac8536d432d">162ba24897e4e11084411400f153af63</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

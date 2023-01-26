@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Opening Hours Transform Map 4">a8c693839710211084411400f153af66</map>
+        <reference_value_field/>
+        <source_field>u_closing_time</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_950986_work_hub_opening_hours_data</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-14 21:41:44</sys_created_on>
+        <sys_id>11e617839710211084411400f153afd5</sys_id>
+        <sys_name>u_closing_time</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_update_name>sys_transform_entry_11e617839710211084411400f153afd5</sys_update_name>
+        <target_field>closing_time</target_field>
+        <target_table>x_950986_work_hub_opening_hours</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</application>
+        <file_path/>
+        <instance_id>ef063cc1db1e9d543050ac44d49619e4</instance_id>
+        <instance_name>dev138291</instance_name>
+        <name>sys_transform_entry_11e617839710211084411400f153afd5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;
+    &lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;
+        &lt;choice_action&gt;create&lt;/choice_action&gt;
+        &lt;coalesce&gt;false&lt;/coalesce&gt;
+        &lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;
+        &lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;
+        &lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;
+        &lt;map display_value="Opening Hours Transform Map 4"&gt;a8c693839710211084411400f153af66&lt;/map&gt;
+        &lt;reference_value_field/&gt;
+        &lt;source_field&gt;u_closing_time&lt;/source_field&gt;
+        &lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;
+        &lt;source_table&gt;x_950986_work_hub_opening_hours_data&lt;/source_table&gt;
+        &lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;kim.lindgren&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-01-14 21:41:44&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;11e617839710211084411400f153afd5&lt;/sys_id&gt;
+        &lt;sys_name&gt;u_closing_time&lt;/sys_name&gt;
+        &lt;sys_package display_value="Work Hub " source="x_950986_work_hub"&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Work Hub "&gt;4dc0b4a2472711109a45dac8536d4328&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_entry_11e617839710211084411400f153afd5&lt;/sys_update_name&gt;
+        &lt;target_field&gt;closing_time&lt;/target_field&gt;
+        &lt;target_table&gt;x_950986_work_hub_opening_hours&lt;/target_table&gt;
+        &lt;use_source_script&gt;false&lt;/use_source_script&gt;
+    &lt;/sys_transform_entry&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>975543253</payload_hash>
+        <record_name>u_closing_time</record_name>
+        <reverted_from/>
+        <source>e261392997a8291084411400f153af49</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-22 08:46:07</sys_created_on>
+        <sys_id>b512b1e997a8291084411400f153af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185d8a804400000001</sys_recorded_at>
+        <sys_updated_by>kim.lindgren</sys_updated_by>
+        <sys_updated_on>2023-01-22 08:46:07</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>f112b1e992a829100b7e51aadbd3b977</update_guid>
+        <update_guid_history>f112b1e992a829100b7e51aadbd3b977:0,11e617835b102110a520412de844dcd6:-1389073683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kim.lindgren</sys_created_by>
+        <sys_created_on>2023-01-22 09:23:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>7376384bef7b4fbc914960e4247ee7b9</sys_id>
+        <sys_metadata>11e617839710211084411400f153afd5</sys_metadata>
+        <sys_name>u_closing_time</sys_name>
+        <sys_package display_value="Work Hub " source="x_950986_work_hub">4dc0b4a2472711109a45dac8536d4328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Hub ">4dc0b4a2472711109a45dac8536d4328</sys_scope>
+        <sys_scope_delete display_value="">764fdc9d8fed40be952a325bda8a9211</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_11e617839710211084411400f153afd5</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_11e617839710211084411400f153afd5">b512b1e997a8291084411400f153af77</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

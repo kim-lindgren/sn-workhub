@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="07cf54c497eca11084411400f153af18" extends="incident" label="Work Hub Incident" max_length="40" name="x_950986_work_hub_work_hub_incident" type="collection">
+        <element attributes="encode_utf8=false" label="Work Hub Configuration Item" max_length="32" name="u_work_hub_configuration_item" reference="x_950986_work_hub_configuration_items" type="reference"/>
+    </element>
+</database>
